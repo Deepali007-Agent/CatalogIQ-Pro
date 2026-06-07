@@ -1,0 +1,11 @@
+product_id,product_name,category,description,color,material,size,tags,price
+P001,Men's Slim Fit Jeans,Apparel,"Blue denim jeans",Blue,Denim,32x30,"jeans,denim",1299
+P002,Wireless Bluetooth Headphones,Electronics,"","","","","",2499
+P003,Cotton Kurti,Apparel,,Pink,Cotton,M,,599
+P004,Stainless Steel Water Bottle,Kitchen,A bottle that holds water,Silver,Steel,1L,,349
+P005,Running Shoes,Footwear,"Comfortable shoes for running",Black,,,"shoes,sports",1899
+P006,Laptop Stand,Electronics,"Adjustable stand","","Aluminium","","laptop,work",899
+P007,Face Moisturizer,Beauty,,,,,,449
+P008,Yoga Mat,Sports,"Non-slip yoga mat",Purple,TPE,6mm,"yoga,fitness,exercise",799
+P009,Ceramic Coffee Mug,Kitchen,"For hot drinks",,Ceramic,350ml,,199
+P010,Women's Handbag,Accessories,,"Brown",Leather,Medium,"bag,women,fashion",2199

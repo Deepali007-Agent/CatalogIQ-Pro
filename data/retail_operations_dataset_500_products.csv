@@ -1,0 +1,501 @@
+product_id,product_name,category,brand,seller_name,vendor_id,description,color,material,size,tags,price,inventory_qty,inventory_status,units_sold_30d,gmv_last_30d,impressions,clicks,conversion_rate,rating,review_count,launch_date,catalog_owner
+P0001,Kurti,Fashion,"Obrien, Rodriguez and Lewis",Cole-Moore,V018,,,,XL,,8470,201,Out of Stock,46,389620,3708,4261,5.6,3.5,363,2025-04-12,Deepali
+P0002,Kurti,Fashion,"Mckay, Rojas and Jenkins",Torres and Sons,V014,Premium kurti designed for everyday use.,Black,,M,"premium,quality",9756,239,Out of Stock,97,946332,16801,3097,7.05,4.1,204,2024-10-09,Deepali
+P0003,Dress,Fashion,Rasmussen Ltd,Barron and Sons,V015,,,,S,,8967,142,In Stock,106,950502,45727,313,6.4,3.5,734,2026-03-15,Deepali
+P0004,Kurti,Fashion,Thomas LLC,Robinson LLC,V010,Premium kurti designed for everyday use.,White,,L,"premium,quality",1134,258,In Stock,131,148554,17398,1815,2.62,3.5,775,2025-06-03,Deepali
+P0005,Jacket,Fashion,Morton-Hill,Jones-Miles,V003,Premium jacket designed for everyday use.,White,,,"premium,quality",6913,245,Out of Stock,291,2011683,31569,4840,6.71,3.8,334,2025-04-25,Deepali
+P0006,Dress,Fashion,Yoder-Wright,Gutierrez-Hardy,V008,,,,XL,,715,363,Low Stock,46,32890,41677,2853,5.35,2.9,696,2026-05-28,Deepali
+P0007,Jacket,Fashion,Gibson-Clark,"Garcia, Mcmahon and Rubio",V001,Premium jacket designed for everyday use.,Red,,,"premium,quality",3234,214,Low Stock,46,148764,13368,1743,0.7,4.1,468,2025-12-13,Deepali
+P0008,Kurti,Fashion,Lawson-Vasquez,"Scott, Williams and Young",V018,Premium kurti designed for everyday use.,Blue,,XL,"premium,quality",4042,203,Low Stock,288,1164096,45077,864,7.03,2.6,772,2025-10-30,Deepali
+P0009,Kurti,Fashion,Coleman LLC,Rodriguez-Richardson,V005,Premium kurti designed for everyday use.,Blue,,,"premium,quality",3468,129,Low Stock,223,773364,1273,4156,6.03,4.4,97,2025-02-07,Deepali
+P0010,Dress,Fashion,"Parsons, Phillips and Lowery","Peterson, Webb and Baker",V015,Premium dress designed for everyday use.,Brown,,XL,"premium,quality",7810,85,Low Stock,170,1327700,4531,1074,1.89,3.6,624,2024-07-04,Deepali
+P0011,Dress,Fashion,Rogers-Cochran,Bradley-Kelley,V007,Premium dress designed for everyday use.,Brown,,XL,"premium,quality",4733,39,Out of Stock,146,691018,18703,3709,2.68,3.2,344,2025-06-07,Deepali
+P0012,Kurti,Fashion,Taylor-Robinson,Contreras Group,V004,Premium kurti designed for everyday use.,Blue,,M,"premium,quality",9922,261,Out of Stock,160,1587520,38090,67,0.74,4.4,240,2024-08-17,Deepali
+P0013,T-Shirt,Fashion,Smith-Carter,"Walsh, Glass and Johnson",V001,Premium t-shirt designed for everyday use.,White,,L,"premium,quality",3328,249,In Stock,240,798720,2727,4793,1.53,3.2,126,2024-12-15,Deepali
+P0014,T-Shirt,Fashion,Wheeler Inc,Clark Group,V005,,,,S,,3996,198,Low Stock,207,827172,45673,2347,3.16,2.5,648,2024-07-10,Deepali
+P0015,Dress,Fashion,Grant-Farmer,Deleon LLC,V006,Premium dress designed for everyday use.,Black,,M,"premium,quality",2672,88,Low Stock,126,336672,16093,733,6.61,3.8,727,2025-08-31,Deepali
+P0016,Dress,Fashion,Clark-Washington,"Nunez, Copeland and Gonzalez",V020,Premium dress designed for everyday use.,White,Plastic,,"premium,quality",7315,8,In Stock,288,2106720,16555,594,7.45,4.6,926,2024-10-15,Deepali
+P0017,Kurti,Fashion,Ellis Group,Lozano-Rodriguez,V010,Premium kurti designed for everyday use.,Blue,,XL,"premium,quality",5392,473,Out of Stock,174,938208,1951,578,7.27,2.6,242,2025-05-19,Deepali
+P0018,Jacket,Fashion,Morgan LLC,Miranda Group,V019,Premium jacket designed for everyday use.,White,Cotton,,"premium,quality",7412,171,Out of Stock,141,1045092,10832,65,4.28,3.5,813,2025-07-19,Deepali
+P0019,T-Shirt,Fashion,"Brown, Evans and Golden",Zamora and Sons,V007,Premium t-shirt designed for everyday use.,Blue,,,"premium,quality",8586,143,Out of Stock,167,1433862,33574,627,5.26,4.4,283,2026-05-16,Deepali
+P0020,Dress,Fashion,Cowan-Ferguson,"Evans, Fisher and Yang",V017,Premium dress designed for everyday use.,Red,,M,"premium,quality",9548,246,In Stock,169,1613612,19371,3613,1.43,3.5,771,2024-10-17,Deepali
+P0021,Kurti,Fashion,Murray-Griffith,Berry PLC,V003,,,,S,,3659,291,Low Stock,175,640325,43680,2947,3.3,3.5,546,2025-01-28,Deepali
+P0022,Jacket,Fashion,Maldonado Inc,"Adams, Romero and Swanson",V001,,,,M,,6886,320,Out of Stock,198,1363428,25163,4607,5.88,2.8,400,2024-06-13,Deepali
+P0023,Jeans,Fashion,"Meyer, Robinson and Jefferson",King-Jackson,V008,Premium jeans designed for everyday use.,Brown,Plastic,L,"premium,quality",7806,19,Out of Stock,258,2013948,12087,2451,5.53,3.2,945,2024-11-15,Deepali
+P0024,Dress,Fashion,"Myers, Villarreal and Pitts",Wright-Gonzalez,V016,,,,S,,4353,85,Low Stock,80,348240,22846,898,6.95,4.2,413,2025-01-01,Deepali
+P0025,Jacket,Fashion,Terry-Wallace,"Marquez, Roberts and Carr",V004,Premium jacket designed for everyday use.,Blue,,XL,"premium,quality",8200,392,In Stock,112,918400,28310,1690,7.48,5,459,2026-02-26,Deepali
+P0026,T-Shirt,Fashion,Martin-Ellis,Chen PLC,V013,Premium t-shirt designed for everyday use.,Brown,,XL,"premium,quality",5059,465,In Stock,296,1497464,21409,4244,5.14,4.4,569,2025-07-21,Deepali
+P0027,Kurti,Fashion,"Wilson, Robinson and Gardner",Johnson LLC,V002,,,,L,,9144,33,In Stock,253,2313432,35261,3648,4.94,4,590,2024-09-29,Deepali
+P0028,Jacket,Fashion,Mcconnell-Horn,Terry-Anderson,V016,Premium jacket designed for everyday use.,Red,Cotton,S,"premium,quality",5954,121,Low Stock,122,726388,36130,4438,4.11,4,319,2024-10-15,Deepali
+P0029,Jacket,Fashion,"Chandler, West and Cobb","Dean, Hill and Ford",V015,,,,,,5584,317,Low Stock,227,1267568,38891,1413,1.81,2.7,552,2025-05-27,Deepali
+P0030,Kurti,Fashion,Mejia PLC,"Baker, Warren and Young",V015,Premium kurti designed for everyday use.,White,,S,"premium,quality",8015,333,Low Stock,122,977830,41851,1971,1.82,4.4,700,2025-02-13,Deepali
+P0031,Dress,Fashion,"Vasquez, Martinez and Schaefer","York, Lee and Carrillo",V020,Premium dress designed for everyday use.,Red,,,"premium,quality",5189,458,In Stock,210,1089690,1156,4652,4.55,4.2,509,2025-07-19,Deepali
+P0032,T-Shirt,Fashion,Wright Group,"Burns, Moore and Fisher",V011,Premium t-shirt designed for everyday use.,Blue,Wood,XL,"premium,quality",2868,375,Out of Stock,135,387180,22391,3449,6.13,4.5,865,2024-08-27,Deepali
+P0033,T-Shirt,Fashion,"Cummings, Roberts and Obrien",Martin-Cooper,V019,Premium t-shirt designed for everyday use.,Red,,S,"premium,quality",7311,350,Out of Stock,82,599502,42008,4253,2.44,4.3,810,2024-07-16,Deepali
+P0034,Dress,Fashion,Martinez-Garcia,Henderson LLC,V001,Premium dress designed for everyday use.,Blue,Cotton,,"premium,quality",9347,292,In Stock,153,1430091,10398,728,4.63,3,415,2025-06-10,Deepali
+P0035,Kurti,Fashion,Lee-Lewis,Nelson-Woods,V007,,,,S,,4128,395,Low Stock,86,355008,30533,1675,7.23,3.9,578,2024-07-23,Deepali
+P0036,Jacket,Fashion,Clark Inc,"Walls, Jones and Washington",V003,,,,XL,,7902,488,In Stock,283,2236266,38056,4071,6.02,4.6,289,2026-02-01,Deepali
+P0037,Jeans,Fashion,"Edwards, Murphy and King","Beltran, Gilbert and Elliott",V011,,,,M,,8143,120,Low Stock,198,1612314,46602,1985,3.31,3.2,194,2026-02-10,Deepali
+P0038,Jeans,Fashion,"Campbell, Curry and Gibson",Wells-Williams,V008,Premium jeans designed for everyday use.,Blue,Cotton,L,"premium,quality",3686,36,Out of Stock,156,575016,14104,1884,2.18,4.4,993,2025-01-06,Deepali
+P0039,Kurti,Fashion,"Mitchell, Lopez and Zamora",Baker-Lynch,V019,Premium kurti designed for everyday use.,Blue,,S,"premium,quality",4399,463,Low Stock,86,378314,7757,2602,0.95,3.6,434,2025-01-12,Deepali
+P0040,T-Shirt,Fashion,Sanders-Williams,Williams-Stanley,V014,,,,M,,6459,105,Low Stock,295,1905405,36532,4788,1.49,4.7,723,2024-06-13,Deepali
+P0041,Dress,Fashion,Weaver-Newton,"Hawkins, Rodriguez and Sexton",V002,,,,,,4279,91,Low Stock,155,663245,39265,3673,2.01,2.6,960,2025-11-19,Deepali
+P0042,Jeans,Fashion,Hancock Inc,"Wong, Miller and Avila",V003,Premium jeans designed for everyday use.,White,,M,"premium,quality",8279,476,Out of Stock,59,488461,37545,4424,3.96,2.8,777,2024-12-08,Deepali
+P0043,Jeans,Fashion,Smith-Gilmore,Solis-Macias,V005,Premium jeans designed for everyday use.,Red,,S,"premium,quality",6201,48,Low Stock,78,483678,15699,1638,6.49,4.6,101,2026-01-23,Deepali
+P0044,T-Shirt,Fashion,"Adams, Hunter and Rivera",Payne LLC,V013,,,,S,,5632,254,In Stock,262,1475584,45735,2818,7.44,4.7,225,2025-06-10,Deepali
+P0045,Jacket,Fashion,Thompson-Adkins,Duncan-Baker,V004,,,,,,7555,397,In Stock,192,1450560,5074,4468,7.01,3,238,2025-11-12,Deepali
+P0046,Jacket,Fashion,Sanchez-Alexander,"Anderson, Rosario and Paul",V004,Premium jacket designed for everyday use.,Brown,,XL,"premium,quality",4118,466,Out of Stock,279,1148922,23285,2504,2.36,4.7,800,2024-05-31,Deepali
+P0047,T-Shirt,Fashion,Smith-Taylor,Robinson-Jones,V015,,,,L,,464,135,Low Stock,238,110432,42826,98,5.11,2.9,386,2025-07-12,Deepali
+P0048,Dress,Fashion,Hall-Perez,Young and Sons,V012,,,,L,,4607,173,Out of Stock,187,861509,10556,2197,7.83,4,102,2024-08-26,Deepali
+P0049,Kurti,Fashion,Nguyen-Perez,Oconnor-Martin,V008,Premium kurti designed for everyday use.,Brown,Leather,S,"premium,quality",5614,61,In Stock,284,1594376,18336,4449,6.43,3.8,171,2026-04-20,Deepali
+P0050,T-Shirt,Fashion,Vazquez Inc,"Johnson, Page and Henson",V018,,,,M,,3797,242,Out of Stock,253,960641,47370,4320,4.26,3.7,543,2025-09-14,Deepali
+P0051,Dress,Fashion,Smith-Holt,Gardner-Melendez,V012,Premium dress designed for everyday use.,Brown,,,"premium,quality",4726,488,Out of Stock,65,307190,32535,1064,3.14,4.6,375,2025-06-09,Deepali
+P0052,Kurti,Fashion,Mueller and Sons,"Roberts, Rangel and Vasquez",V007,Premium kurti designed for everyday use.,Brown,,XL,"premium,quality",8997,83,In Stock,29,260913,15892,806,5.95,3.1,194,2024-05-30,Deepali
+P0053,Jeans,Fashion,"Gibson, Evans and Smith",Campbell Group,V003,,,,L,,5387,34,In Stock,278,1497586,33775,889,5.76,2.6,920,2026-01-18,Deepali
+P0054,Dress,Fashion,Richmond Group,Mason-Ellis,V013,Premium dress designed for everyday use.,Blue,Cotton,XL,"premium,quality",8754,475,In Stock,269,2354826,49325,1634,6.85,4.6,153,2024-11-08,Deepali
+P0055,Kurti,Fashion,"White, Valenzuela and Roberson","Ayers, Reid and Garcia",V014,Premium kurti designed for everyday use.,Red,,XL,"premium,quality",6976,223,In Stock,282,1967232,18108,4051,6.83,3.5,673,2026-04-24,Deepali
+P0056,T-Shirt,Fashion,Howard Inc,Crawford-Howard,V018,Premium t-shirt designed for everyday use.,Red,,L,"premium,quality",2838,93,Out of Stock,237,672606,48357,4245,1.49,4.1,236,2025-03-02,Deepali
+P0057,Jeans,Fashion,"Smith, Jackson and Gutierrez","Anderson, Spence and Stewart",V016,Premium jeans designed for everyday use.,Red,,XL,"premium,quality",4249,472,In Stock,39,165711,16224,2002,2.34,5,671,2024-12-02,Deepali
+P0058,T-Shirt,Fashion,Bartlett LLC,Bowman Ltd,V011,,,,XL,,4711,165,Low Stock,34,160174,10699,2774,4.65,4.8,31,2026-05-08,Deepali
+P0059,Dress,Fashion,"Allen, Lynch and Patterson",Vasquez and Sons,V012,,,,,,6534,14,Out of Stock,5,32670,16835,347,1.37,3.9,634,2025-12-24,Deepali
+P0060,T-Shirt,Fashion,Williams PLC,Wheeler-Gordon,V001,Premium t-shirt designed for everyday use.,Brown,,,"premium,quality",804,381,Out of Stock,218,175272,29517,145,4.41,3.9,607,2026-01-08,Deepali
+P0061,Kurti,Fashion,"Douglas, Holt and Murphy",Smith PLC,V007,Premium kurti designed for everyday use.,Red,Cotton,M,"premium,quality",4261,86,Out of Stock,138,588018,45800,2226,6.88,3.6,409,2024-07-14,Deepali
+P0062,T-Shirt,Fashion,Farrell Inc,Mills Inc,V011,,,,S,,4461,141,In Stock,245,1092945,23723,762,7.22,3.9,888,2026-04-25,Deepali
+P0063,Dress,Fashion,Bailey-King,Hudson and Sons,V002,,,,XL,,3188,258,Low Stock,123,392124,30253,3944,5.78,3.1,808,2025-02-16,Deepali
+P0064,Jeans,Fashion,Hicks-Thompson,Marks Ltd,V001,,,,M,,8964,291,Low Stock,120,1075680,13705,1199,6.76,3.1,80,2026-03-05,Deepali
+P0065,Dress,Fashion,"Gomez, Bridges and Smith",Mendez-Rodgers,V014,,,,S,,4023,284,Low Stock,279,1122417,13149,4084,6.94,2.8,621,2024-12-15,Deepali
+P0066,Kurti,Fashion,Salazar-Foster,"Brewer, Shepherd and Butler",V009,Premium kurti designed for everyday use.,White,,XL,"premium,quality",3069,419,In Stock,35,107415,16556,1793,2.56,3.9,214,2026-04-16,Deepali
+P0067,Kurti,Fashion,Bowman-White,Cuevas and Sons,V001,Premium kurti designed for everyday use.,Red,,XL,"premium,quality",6370,236,In Stock,270,1719900,15197,2346,3.31,2.6,103,2026-01-29,Deepali
+P0068,Jeans,Fashion,Ortiz-Harris,Jones-Rose,V018,Premium jeans designed for everyday use.,White,,XL,"premium,quality",1561,376,Out of Stock,263,410543,10138,1827,5.6,4.5,401,2024-09-01,Deepali
+P0069,Dress,Fashion,Bailey-Torres,Martin Inc,V013,Premium dress designed for everyday use.,Black,,XL,"premium,quality",4844,195,Out of Stock,143,692692,16594,2849,7.87,4.4,111,2025-04-14,Deepali
+P0070,T-Shirt,Fashion,Avila Group,Douglas-Suarez,V002,Premium t-shirt designed for everyday use.,Blue,,L,"premium,quality",9536,300,In Stock,181,1726016,11120,1748,5.49,4.7,517,2026-03-07,Deepali
+P0071,Dress,Fashion,"Best, Cowan and Hatfield",Mitchell-Fernandez,V018,,,,L,,469,500,Low Stock,204,95676,35279,4922,2.82,4.7,357,2025-08-29,Deepali
+P0072,T-Shirt,Fashion,Burgess LLC,Juarez-Fisher,V002,Premium t-shirt designed for everyday use.,White,Plastic,L,"premium,quality",5597,234,Out of Stock,110,615670,28929,697,6.93,3.6,38,2025-07-13,Deepali
+P0073,T-Shirt,Fashion,Ingram-Shaw,Peterson-Sanders,V007,Premium t-shirt designed for everyday use.,Black,Cotton,S,"premium,quality",5466,377,In Stock,145,792570,9969,1468,4.38,4,515,2025-10-18,Deepali
+P0074,T-Shirt,Fashion,"Hoover, Hughes and Brown",Baldwin-Mcconnell,V007,Premium t-shirt designed for everyday use.,Black,,L,"premium,quality",3672,19,Out of Stock,202,741744,42631,2712,7.49,3.5,477,2025-06-03,Deepali
+P0075,T-Shirt,Fashion,"Ruiz, Sullivan and Burke",Fox-Bonilla,V009,Premium t-shirt designed for everyday use.,Blue,,M,"premium,quality",3606,114,Out of Stock,98,353388,40039,219,4.64,4.6,88,2024-08-13,Deepali
+P0076,Jacket,Fashion,Foley-Walker,Patel and Sons,V015,Premium jacket designed for everyday use.,Red,,S,"premium,quality",926,184,Out of Stock,194,179644,43572,4007,6.53,2.8,191,2026-02-08,Deepali
+P0077,T-Shirt,Fashion,Logan-Wade,Massey PLC,V013,Premium t-shirt designed for everyday use.,Black,Plastic,M,"premium,quality",3770,5,Out of Stock,179,674830,40566,1151,1.12,3.8,882,2025-11-14,Deepali
+P0078,Jacket,Fashion,Wilkins-Stevenson,"Rodriguez, Davis and Cannon",V009,Premium jacket designed for everyday use.,Red,Leather,XL,"premium,quality",9277,435,In Stock,73,677221,12082,1519,1.03,2.6,227,2025-09-03,Deepali
+P0079,T-Shirt,Fashion,Flowers Ltd,Shields Ltd,V015,Premium t-shirt designed for everyday use.,Brown,Cotton,S,"premium,quality",4892,78,Low Stock,19,92948,23584,2292,3.32,4.9,783,2026-01-27,Deepali
+P0080,Jacket,Fashion,Wright LLC,Lopez LLC,V001,Premium jacket designed for everyday use.,Blue,Plastic,L,"premium,quality",7505,406,Out of Stock,232,1741160,30802,2462,6.17,2.6,576,2024-07-24,Deepali
+P0081,Dress,Fashion,Kennedy Inc,"Vasquez, Warren and Freeman",V018,Premium dress designed for everyday use.,White,,M,"premium,quality",4331,419,Out of Stock,205,887855,29496,4266,7.22,3.1,560,2025-10-10,Deepali
+P0082,T-Shirt,Fashion,Johnson-Lang,Carr Inc,V016,Premium t-shirt designed for everyday use.,Black,Leather,,"premium,quality",2237,111,In Stock,237,530169,25939,2727,1.48,4.8,341,2025-01-20,Deepali
+P0083,T-Shirt,Fashion,Mcguire Ltd,Beasley-Russell,V014,,,,XL,,9436,35,In Stock,50,471800,32199,1075,7.11,4.8,397,2025-11-20,Deepali
+P0084,Jeans,Fashion,Mullins-Reynolds,"Yates, Wilkins and Taylor",V009,Premium jeans designed for everyday use.,Red,,M,"premium,quality",4928,113,Low Stock,244,1202432,25366,1805,4.11,3.2,373,2026-02-15,Deepali
+P0085,Jacket,Fashion,Bird-Cobb,Wright-Griffin,V014,Premium jacket designed for everyday use.,Blue,,M,"premium,quality",3752,153,Out of Stock,101,378952,21731,4908,0.96,2.5,80,2025-07-18,Deepali
+P0086,Dress,Fashion,"Stevenson, Meyer and Keller",Ibarra and Sons,V005,Premium dress designed for everyday use.,Red,,M,"premium,quality",2124,34,Out of Stock,50,106200,40024,1983,7.35,3,638,2024-12-14,Deepali
+P0087,Kurti,Fashion,Graves-Jackson,Hess-Ward,V020,Premium kurti designed for everyday use.,White,,XL,"premium,quality",4879,186,In Stock,171,834309,13145,4353,3.56,4.9,43,2024-09-05,Deepali
+P0088,Jacket,Fashion,Holland-Miller,Ramirez-Myers,V013,,,,,,9178,78,Low Stock,102,936156,12742,3422,1.41,3,38,2025-05-28,Deepali
+P0089,Jacket,Fashion,"Hill, Brown and Evans",Hancock-Perez,V004,Premium jacket designed for everyday use.,White,,,"premium,quality",5326,467,Out of Stock,292,1555192,24280,4114,1.27,2.8,706,2026-04-16,Deepali
+P0090,Dress,Fashion,Morris-Young,Patel-Myers,V011,,,,L,,6797,128,Out of Stock,34,231098,32448,4529,0.86,4.1,998,2025-11-01,Deepali
+P0091,Jacket,Fashion,Reese-Alexander,Case Group,V017,Premium jacket designed for everyday use.,Blue,,,"premium,quality",6145,13,Out of Stock,136,835720,48763,1017,3.95,4.8,687,2025-06-22,Deepali
+P0092,T-Shirt,Fashion,Kelly Group,Brady and Sons,V007,Premium t-shirt designed for everyday use.,Brown,Steel,XL,"premium,quality",9601,310,In Stock,163,1564963,27175,1717,7.4,4.1,804,2025-05-01,Deepali
+P0093,Kurti,Fashion,Taylor PLC,Mendoza Ltd,V003,Premium kurti designed for everyday use.,Brown,,M,"premium,quality",395,383,In Stock,159,62805,32340,4711,1.32,3.6,717,2024-06-16,Deepali
+P0094,Jacket,Fashion,Powell-Jefferson,Smith Ltd,V018,Premium jacket designed for everyday use.,Red,,S,"premium,quality",503,493,In Stock,145,72935,47117,4017,0.92,2.6,433,2025-10-14,Deepali
+P0095,Kurti,Fashion,Gibbs and Sons,Green Group,V019,Premium kurti designed for everyday use.,Brown,,S,"premium,quality",8675,177,Out of Stock,213,1847775,41418,2681,1.24,3.3,313,2026-05-08,Deepali
+P0096,Dress,Fashion,Haas-Huber,Sanchez PLC,V004,,,,M,,3611,346,Out of Stock,61,220271,12678,242,5.49,3.7,160,2026-01-03,Deepali
+P0097,T-Shirt,Fashion,"Johnson, Yoder and Taylor",Hoffman-Jones,V014,Premium t-shirt designed for everyday use.,Black,Leather,S,"premium,quality",1931,469,In Stock,73,140963,43735,436,2.99,5,963,2025-07-06,Deepali
+P0098,Jeans,Fashion,"Washington, Morales and Romero","Alexander, Benitez and Dickson",V018,Premium jeans designed for everyday use.,Red,Steel,XL,"premium,quality",8480,238,In Stock,183,1551840,22589,4235,4.98,4,320,2025-01-18,Deepali
+P0099,Jeans,Fashion,Hernandez Group,Hill-Campbell,V002,Premium jeans designed for everyday use.,White,,S,"premium,quality",1770,452,Out of Stock,107,189390,25966,2975,1.26,4.2,146,2025-02-08,Deepali
+P0100,T-Shirt,Fashion,Rivera and Sons,"Sullivan, Acevedo and Figueroa",V007,Premium t-shirt designed for everyday use.,Red,,M,"premium,quality",6643,198,Out of Stock,146,969878,16159,3514,7.8,4.7,868,2024-10-01,Deepali
+P0101,T-Shirt,Fashion,Tyler Ltd,Griffin Ltd,V002,,,,XL,,5060,266,Low Stock,36,182160,8733,3648,2.42,2.6,507,2024-06-19,Deepali
+P0102,Jeans,Fashion,Shaw-Castaneda,Adams-Henry,V014,,,,L,,1937,307,Low Stock,262,507494,29073,3789,2.29,4.1,679,2024-10-09,Deepali
+P0103,T-Shirt,Fashion,Smith-White,"Simpson, Frost and Whitehead",V012,Premium t-shirt designed for everyday use.,Brown,Wood,,"premium,quality",4469,353,Low Stock,48,214512,5515,3975,3.98,3.8,934,2025-03-07,Deepali
+P0104,Kurti,Fashion,"Graham, Moore and Brown",Pearson PLC,V018,Premium kurti designed for everyday use.,White,Cotton,XL,"premium,quality",5713,116,Out of Stock,36,205668,2112,3337,3.29,4,272,2024-11-14,Deepali
+P0105,Kurti,Fashion,"Anderson, Tran and Costa","King, Bennett and Richardson",V008,Premium kurti designed for everyday use.,Blue,,,"premium,quality",1175,466,In Stock,231,271425,9685,3750,3.78,3.6,63,2024-07-19,Deepali
+P0106,Jeans,Fashion,Wilkinson-Tran,Wheeler Ltd,V006,,,,S,,2360,430,In Stock,157,370520,31633,2579,0.6,4.2,544,2026-02-10,Deepali
+P0107,Jeans,Fashion,Williams PLC,"Simmons, Fischer and Dougherty",V004,Premium jeans designed for everyday use.,Red,,XL,"premium,quality",9566,150,Out of Stock,211,2018426,16884,307,3.22,4,348,2026-01-02,Deepali
+P0108,Jeans,Fashion,"Harvey, Perez and Smith","Henderson, Preston and Rivera",V007,Premium jeans designed for everyday use.,Brown,,S,"premium,quality",1808,239,In Stock,155,280240,4957,4857,2.72,2.6,864,2025-05-13,Deepali
+P0109,Kurti,Fashion,Ortiz Inc,Tanner-Campbell,V007,Premium kurti designed for everyday use.,Blue,,L,"premium,quality",3246,79,In Stock,216,701136,42679,3546,0.59,2.9,180,2024-10-12,Deepali
+P0110,Kurti,Fashion,Day-Foley,Gray-Wright,V012,Premium kurti designed for everyday use.,Red,,L,"premium,quality",3946,176,Out of Stock,59,232814,15124,1667,7.36,4.8,404,2025-01-11,Deepali
+P0111,Jacket,Fashion,Hughes-Carter,"Decker, Kidd and Manning",V019,Premium jacket designed for everyday use.,White,,XL,"premium,quality",1674,7,Low Stock,40,66960,24511,4344,3.42,3.3,692,2024-12-29,Deepali
+P0112,Dress,Fashion,Barry PLC,"Roberts, Rogers and Obrien",V002,Premium dress designed for everyday use.,Red,,L,"premium,quality",4418,402,In Stock,265,1170770,32199,1853,7.47,3.4,394,2024-08-06,Deepali
+P0113,Jeans,Fashion,"Hawkins, Estrada and Nelson",Burke-Johnson,V018,Premium jeans designed for everyday use.,Brown,,,"premium,quality",5907,482,In Stock,78,460746,7382,2425,1.9,4.8,388,2025-04-23,Deepali
+P0114,Dress,Fashion,"Rodriguez, Jackson and Ortiz","Flores, Dunlap and Carrillo",V011,Premium dress designed for everyday use.,Black,,,"premium,quality",3475,78,In Stock,268,931300,46320,779,5.29,4.6,752,2025-12-25,Deepali
+P0115,Jacket,Fashion,Mitchell Inc,Mercado-Moore,V002,,,,S,,517,258,Out of Stock,228,117876,4972,2894,3.78,3,715,2024-11-17,Deepali
+P0116,Kurti,Fashion,"Yu, Mckinney and Golden",Knight LLC,V002,Premium kurti designed for everyday use.,Red,Steel,S,"premium,quality",7652,281,Low Stock,143,1094236,22729,3377,7.42,3.8,811,2024-08-19,Deepali
+P0117,Kurti,Fashion,"Solis, Klein and Butler",King-Lopez,V005,Premium kurti designed for everyday use.,Blue,Steel,L,"premium,quality",9637,473,In Stock,43,414391,28046,3611,2.54,2.5,58,2025-04-30,Deepali
+P0118,Kurti,Fashion,"Vargas, Chavez and Rivera",Larson-Williams,V004,,,,S,,6202,200,Low Stock,111,688422,2699,2758,5.02,4.8,414,2025-08-23,Deepali
+P0119,T-Shirt,Fashion,Lyons PLC,Singleton-Hess,V014,Premium t-shirt designed for everyday use.,Red,,L,"premium,quality",8001,294,Low Stock,158,1264158,25743,1890,2.42,4.2,135,2024-08-10,Deepali
+P0120,Jacket,Fashion,Callahan-Bradley,Fuller-Hernandez,V011,,,,L,,1266,235,In Stock,101,127866,28035,2655,3.54,4.5,789,2025-03-03,Deepali
+P0121,Kurti,Fashion,"Greene, Cooper and Robles",Lambert Group,V010,Premium kurti designed for everyday use.,Blue,,,"premium,quality",3007,83,Low Stock,137,411959,30208,3306,5.13,3.4,434,2025-06-02,Deepali
+P0122,Dress,Fashion,Parrish-Scott,Garrison Ltd,V009,Premium dress designed for everyday use.,White,,,"premium,quality",9232,398,Low Stock,209,1929488,27454,2917,7.6,3.4,298,2024-09-08,Deepali
+P0123,Kurti,Fashion,Mercer-Perry,"Brown, Brown and Ferrell",V001,,,,,,6641,468,In Stock,240,1593840,29500,2033,1.87,4.1,582,2026-03-01,Deepali
+P0124,Jacket,Fashion,Garner LLC,"Thompson, Stout and Schneider",V016,Premium jacket designed for everyday use.,White,,S,"premium,quality",6997,390,Out of Stock,54,377838,16612,4442,1.75,4.2,660,2025-09-16,Deepali
+P0125,Dress,Fashion,Nielsen-Bradley,Stanley-Mueller,V017,,,,,,7007,310,Low Stock,279,1954953,5527,3930,1.85,2.5,868,2025-12-20,Deepali
+P0126,Jeans,Fashion,"Brown, Richardson and Hall","Mitchell, Bates and Peters",V001,Premium jeans designed for everyday use.,Black,,XL,"premium,quality",3224,117,Out of Stock,130,419120,12859,3206,5.77,4.9,943,2024-08-26,Deepali
+P0127,Jeans,Fashion,"Riley, Thomas and Robbins","Gonzalez, Roberts and Hancock",V017,Premium jeans designed for everyday use.,White,Steel,L,"premium,quality",9849,104,In Stock,184,1812216,48116,4417,4.69,4.2,273,2025-09-20,Deepali
+P0128,Jeans,Fashion,"King, Cochran and Taylor",Miles-Williams,V020,Premium jeans designed for everyday use.,Red,,S,"premium,quality",6359,109,Low Stock,122,775798,28085,2893,6.75,4.2,201,2025-10-29,Deepali
+P0129,Kurti,Fashion,George PLC,Tran and Sons,V003,Premium kurti designed for everyday use.,Red,,M,"premium,quality",8816,219,In Stock,6,52896,27307,2782,0.73,3,841,2025-02-09,Deepali
+P0130,Jeans,Fashion,"Daniels, Swanson and Buck","Barnes, White and Harrington",V002,Premium jeans designed for everyday use.,Blue,Steel,,"premium,quality",2940,61,In Stock,164,482160,11357,3490,7.1,3.9,10,2025-05-31,Deepali
+P0131,Jacket,Fashion,Martin LLC,"Ellison, Lynch and Clark",V019,,,,M,,6450,120,In Stock,103,664350,31950,3478,2.41,3.7,881,2025-12-26,Deepali
+P0132,Jeans,Fashion,Tate-Anderson,Rodriguez Ltd,V017,Premium jeans designed for everyday use.,White,,XL,"premium,quality",9585,478,Out of Stock,262,2511270,8866,763,1.11,3.7,3,2025-10-05,Deepali
+P0133,Jeans,Fashion,Davis Inc,Ryan LLC,V015,,,,S,,4903,361,In Stock,99,485397,11149,700,1.33,3.2,887,2025-02-20,Deepali
+P0134,Jeans,Fashion,Brown-Foster,"Scott, Jenkins and Thomas",V009,,,,S,,2061,28,Low Stock,60,123660,49362,3165,2.57,4.7,771,2025-06-15,Deepali
+P0135,Jacket,Fashion,"Savage, Warren and Lewis",Watson-Jackson,V001,Premium jacket designed for everyday use.,Red,Plastic,M,"premium,quality",6959,412,Low Stock,294,2045946,41817,4254,1.83,3.2,197,2024-09-15,Deepali
+P0136,Jacket,Fashion,"Medina, Conner and Walker",White-Williams,V003,Premium jacket designed for everyday use.,Red,Cotton,M,"premium,quality",2908,47,Out of Stock,76,221008,39061,2866,2.43,3.5,993,2026-05-07,Deepali
+P0137,T-Shirt,Fashion,Snyder and Sons,Owens-Stewart,V004,,,,,,1866,372,Out of Stock,95,177270,34857,3075,1.66,4.5,129,2025-10-17,Deepali
+P0138,T-Shirt,Fashion,"Hunter, Stone and Nguyen",Bailey LLC,V004,Premium t-shirt designed for everyday use.,Blue,Steel,,"premium,quality",7050,196,Low Stock,274,1931700,25494,624,1.59,3.6,243,2025-10-28,Deepali
+P0139,T-Shirt,Fashion,Mcintosh PLC,Boyer-West,V015,Premium t-shirt designed for everyday use.,Brown,Plastic,S,"premium,quality",7673,217,Low Stock,267,2048691,1740,1140,4.99,3.7,427,2025-06-07,Deepali
+P0140,T-Shirt,Fashion,Mcdowell-Simon,Day-Burke,V014,Premium t-shirt designed for everyday use.,White,,M,"premium,quality",5945,268,In Stock,41,243745,49858,1015,1.89,3.5,702,2025-03-24,Deepali
+P0141,Kurti,Fashion,Burnett LLC,Taylor Inc,V008,Premium kurti designed for everyday use.,Brown,,XL,"premium,quality",5567,196,Low Stock,236,1313812,11445,2438,6.72,3.8,540,2026-01-19,Deepali
+P0142,T-Shirt,Fashion,West-Rodriguez,Olson-Huerta,V007,,,,L,,7981,429,Low Stock,195,1556295,42493,1858,4.6,2.7,129,2024-09-28,Deepali
+P0143,Kurti,Fashion,Fitzgerald and Sons,"Morris, Holmes and Espinoza",V016,,,,M,,4596,158,Out of Stock,8,36768,38841,229,3.9,4.7,143,2026-05-01,Deepali
+P0144,Dress,Fashion,Bishop and Sons,Crawford-Harris,V010,Premium dress designed for everyday use.,Blue,Cotton,XL,"premium,quality",4852,356,In Stock,205,994660,38678,2976,1.11,2.8,11,2025-09-29,Deepali
+P0145,T-Shirt,Fashion,Harris-Harrington,"Martinez, Ray and Hardy",V017,Premium t-shirt designed for everyday use.,Brown,,,"premium,quality",6206,223,Out of Stock,124,769544,33760,396,5.86,3.8,832,2024-07-20,Deepali
+P0146,Dress,Fashion,Wilson PLC,Howard-Murray,V007,Premium dress designed for everyday use.,Black,,L,"premium,quality",1401,258,Low Stock,135,189135,4158,3277,6.02,4.2,139,2026-04-04,Deepali
+P0147,Dress,Fashion,"Adams, Townsend and Andersen",White PLC,V009,Premium dress designed for everyday use.,Red,,L,"premium,quality",5833,20,In Stock,31,180823,19207,728,3.74,3.2,166,2025-07-20,Deepali
+P0148,Dress,Fashion,Miller-Hooper,"Contreras, Carter and Macdonald",V007,Premium dress designed for everyday use.,Black,,XL,"premium,quality",4615,180,Out of Stock,69,318435,12108,2990,7.29,4.2,762,2025-02-16,Deepali
+P0149,Jacket,Fashion,Maldonado LLC,Moreno and Sons,V009,,,,XL,,8702,362,Out of Stock,269,2340838,18744,4526,3.55,3.3,702,2025-05-20,Deepali
+P0150,Jeans,Fashion,"Brown, Patterson and Oconnor",James LLC,V013,Premium jeans designed for everyday use.,White,,XL,"premium,quality",9044,463,Low Stock,36,325584,37027,4079,7.8,4.7,684,2026-03-25,Deepali
+P0151,Headphones,Electronics,Brown and Sons,Carter-Mercer,V018,Premium headphones designed for everyday use.,Brown,Wood,M,"premium,quality",7519,33,Out of Stock,111,834609,47912,223,2.48,4.3,440,2025-05-02,Deepali
+P0152,Keyboard,Electronics,"Turner, Moran and James","Paul, Sparks and Baker",V013,Premium keyboard designed for everyday use.,Black,,L,"premium,quality",5116,107,Out of Stock,61,312076,27154,240,6.5,4,903,2024-08-26,Deepali
+P0153,Keyboard,Electronics,"Larson, Mcdonald and Aguilar",Schmidt-Roach,V012,,,,S,,3804,318,Low Stock,173,658092,7367,1826,0.56,3.7,570,2024-12-12,Deepali
+P0154,Headphones,Electronics,Olson-Crawford,Hammond-Gay,V001,,,,XL,,1245,44,In Stock,92,114540,6798,1489,4.24,4.3,173,2025-06-07,Deepali
+P0155,Keyboard,Electronics,"Hoffman, Gray and Bolton",Clark Ltd,V009,,,,M,,3977,306,In Stock,268,1065836,42220,3622,5.29,4.7,75,2025-05-24,Deepali
+P0156,Keyboard,Electronics,Harris Ltd,Boone-Gray,V013,Premium keyboard designed for everyday use.,Black,Leather,M,"premium,quality",7891,121,Low Stock,195,1538745,48218,1376,3.27,4.7,771,2026-05-23,Deepali
+P0157,Power Bank,Electronics,"Wood, Morse and Jackson","Pruitt, Brooks and Wagner",V006,,,,XL,,1472,41,In Stock,272,400384,10906,4742,7.47,3.9,231,2025-10-11,Deepali
+P0158,Power Bank,Electronics,"Baker, Serrano and Rocha",Jackson Inc,V006,Premium power bank designed for everyday use.,Black,,S,"premium,quality",3224,296,Low Stock,64,206336,20616,108,3.55,3.2,314,2025-03-28,Deepali
+P0159,Headphones,Electronics,Calhoun-Stokes,Manning and Sons,V004,,,,S,,7073,381,Low Stock,27,190971,7794,1529,1.17,3,259,2025-02-15,Deepali
+P0160,Headphones,Electronics,Noble-Taylor,Long-Mitchell,V012,,,,M,,4688,45,Low Stock,92,431296,10116,530,7.22,4.7,996,2026-02-04,Deepali
+P0161,Headphones,Electronics,Oliver Group,Norris-Lynch,V016,Premium headphones designed for everyday use.,Brown,,S,"premium,quality",4452,493,In Stock,243,1081836,6068,2436,5.95,3,892,2024-11-15,Deepali
+P0162,Power Bank,Electronics,Molina-Johnson,Schultz Group,V017,Premium power bank designed for everyday use.,Red,,S,"premium,quality",7671,137,Low Stock,55,421905,29598,1863,5.21,4.2,34,2024-07-29,Deepali
+P0163,Smartwatch,Electronics,Paul LLC,Martin-King,V001,,,,XL,,9389,346,In Stock,163,1530407,29785,1735,1.89,3.6,798,2024-06-19,Deepali
+P0164,Bluetooth Speaker,Electronics,"Hoover, Taylor and Ball",Roy LLC,V005,Premium bluetooth speaker designed for everyday use.,White,,M,"premium,quality",4177,156,Low Stock,181,756037,1468,1914,2.16,2.8,819,2025-12-18,Deepali
+P0165,Headphones,Electronics,White Group,Perez Inc,V012,,,,S,,8639,411,Low Stock,223,1926497,13180,4737,7.27,2.8,272,2024-08-04,Deepali
+P0166,Headphones,Electronics,Jones-Carroll,Mccall-Flores,V011,Premium headphones designed for everyday use.,White,,XL,"premium,quality",5915,426,In Stock,259,1531985,11556,421,3.63,3,985,2025-05-20,Deepali
+P0167,Power Bank,Electronics,Bright-Patel,"Watkins, Leonard and Wise",V012,Premium power bank designed for everyday use.,Red,,S,"premium,quality",9686,341,Out of Stock,227,2198722,15533,4907,1.69,3.4,992,2025-01-10,Deepali
+P0168,Smartwatch,Electronics,Conway-Walker,Johnson LLC,V016,,,,S,,8228,327,Out of Stock,225,1851300,37661,274,7.05,2.6,935,2024-07-30,Deepali
+P0169,Bluetooth Speaker,Electronics,"Bond, Hooper and Powers",Simmons PLC,V004,,,,L,,3475,20,Out of Stock,52,180700,8838,2602,6.25,3,662,2025-09-09,Deepali
+P0170,Bluetooth Speaker,Electronics,Howard Group,Fernandez-Meyer,V006,,,,S,,2493,175,In Stock,217,540981,35184,3357,6.72,3.6,721,2025-08-12,Deepali
+P0171,Headphones,Electronics,Burke-Price,Johnson-Wells,V017,Premium headphones designed for everyday use.,Brown,,S,"premium,quality",4673,263,Low Stock,61,285053,30853,4298,7.71,3.5,168,2024-10-11,Deepali
+P0172,Keyboard,Electronics,Mcdonald-Conner,Delacruz LLC,V017,,,,S,,1839,341,Low Stock,131,240909,37076,3833,7.48,4.2,848,2025-11-18,Deepali
+P0173,Bluetooth Speaker,Electronics,"Jefferson, Marshall and Peterson",Jones-Allen,V017,Premium bluetooth speaker designed for everyday use.,Blue,,M,"premium,quality",8076,412,In Stock,181,1461756,20399,4267,2.23,2.6,973,2024-12-25,Deepali
+P0174,Smartwatch,Electronics,"Hernandez, White and Camacho",Huber-Mcguire,V014,Premium smartwatch designed for everyday use.,Black,,L,"premium,quality",2045,403,Out of Stock,247,505115,16684,4920,5.24,2.7,15,2025-11-26,Deepali
+P0175,Power Bank,Electronics,Rice Inc,Carter LLC,V001,,,,M,,2105,489,Low Stock,294,618870,4461,3598,1.83,3.1,829,2025-01-28,Deepali
+P0176,Bluetooth Speaker,Electronics,Barrett PLC,Fischer PLC,V010,Premium bluetooth speaker designed for everyday use.,Red,,S,"premium,quality",7548,94,Out of Stock,13,98124,5486,53,5.06,5,524,2024-07-09,Deepali
+P0177,Smartwatch,Electronics,Wells-Tyler,Sanchez-Lewis,V014,Premium smartwatch designed for everyday use.,Black,,M,"premium,quality",1616,395,Low Stock,11,17776,28756,549,1.38,3.9,805,2026-01-27,Deepali
+P0178,Power Bank,Electronics,"Adams, Butler and Vazquez",Miller-Robertson,V016,Premium power bank designed for everyday use.,Blue,,XL,"premium,quality",8396,222,Low Stock,168,1410528,14897,4769,3.98,2.7,633,2025-08-07,Deepali
+P0179,Headphones,Electronics,"James, Edwards and Norman",Park Inc,V008,Premium headphones designed for everyday use.,Red,Wood,S,"premium,quality",9477,249,In Stock,19,180063,16784,2519,0.61,2.5,518,2024-06-30,Deepali
+P0180,Bluetooth Speaker,Electronics,Smith Ltd,Burgess-Dennis,V009,Premium bluetooth speaker designed for everyday use.,White,,M,"premium,quality",3444,487,In Stock,127,437388,28565,1914,7.87,4.7,950,2025-02-03,Deepali
+P0181,Smartwatch,Electronics,Lester-Shelton,Shepard-King,V016,,,,,,3054,354,Low Stock,71,216834,7096,1342,2.82,4.8,217,2025-05-10,Deepali
+P0182,Smartwatch,Electronics,Costa Ltd,Oneill LLC,V010,Premium smartwatch designed for everyday use.,White,,XL,"premium,quality",9653,187,Low Stock,7,67571,25600,3138,5.78,4.8,658,2025-07-27,Deepali
+P0183,Headphones,Electronics,"Kline, Peterson and Hill","Thomas, Gonzales and Mcdonald",V004,Premium headphones designed for everyday use.,Brown,,S,"premium,quality",1777,130,In Stock,93,165261,38195,132,6.95,3.7,530,2025-02-24,Deepali
+P0184,Headphones,Electronics,"Moreno, Khan and Harrison","Lutz, Mack and Rhodes",V012,,,,S,,5975,68,Low Stock,248,1481800,21975,2290,2.32,3.5,964,2024-07-11,Deepali
+P0185,Keyboard,Electronics,Williams-Cooper,Rodriguez Group,V015,,,,M,,4152,246,In Stock,145,602040,36433,1555,3.75,3.1,170,2025-11-04,Deepali
+P0186,Headphones,Electronics,"Moore, Morse and Henry","Castillo, Frye and Jones",V019,Premium headphones designed for everyday use.,Brown,Plastic,S,"premium,quality",8069,39,In Stock,58,468002,38972,2572,1.19,2.5,415,2026-01-25,Deepali
+P0187,Headphones,Electronics,Gross-Bradley,Snyder-Alexander,V018,Premium headphones designed for everyday use.,Brown,,S,"premium,quality",3504,34,Low Stock,203,711312,45449,4721,6.61,4.3,556,2025-05-15,Deepali
+P0188,Smartwatch,Electronics,Freeman and Sons,Le Group,V003,Premium smartwatch designed for everyday use.,Black,,S,"premium,quality",4203,29,Low Stock,164,689292,10988,4704,7.08,2.9,265,2024-10-27,Deepali
+P0189,Power Bank,Electronics,Smith Group,Arellano Group,V003,Premium power bank designed for everyday use.,White,,S,"premium,quality",4870,304,In Stock,78,379860,3322,4431,5,2.5,70,2024-08-05,Deepali
+P0190,Keyboard,Electronics,"Crawford, Jimenez and Lutz","Chen, Crawford and Padilla",V011,,,,XL,,2691,82,Low Stock,259,696969,40766,1001,6.55,4.2,647,2025-02-14,Deepali
+P0191,Bluetooth Speaker,Electronics,Wood-Nelson,Esparza-Gonzales,V018,Premium bluetooth speaker designed for everyday use.,White,,S,"premium,quality",2040,51,Low Stock,61,124440,43214,393,0.93,3.8,241,2024-11-02,Deepali
+P0192,Headphones,Electronics,Barrera-Phillips,Ingram LLC,V020,Premium headphones designed for everyday use.,White,Wood,L,"premium,quality",5798,452,Low Stock,110,637780,11946,145,7.08,3.6,487,2026-03-16,Deepali
+P0193,Keyboard,Electronics,Mann Group,Miles PLC,V006,Premium keyboard designed for everyday use.,Red,,XL,"premium,quality",7633,200,Low Stock,80,610640,9689,4475,0.92,3.9,783,2025-08-03,Deepali
+P0194,Keyboard,Electronics,Cook Inc,"Mccormick, Smith and Olsen",V001,Premium keyboard designed for everyday use.,Brown,,S,"premium,quality",7009,333,Low Stock,101,707909,38725,4422,5.34,2.8,798,2025-08-03,Deepali
+P0195,Power Bank,Electronics,"Morrow, Robertson and Hamilton",Avila PLC,V018,,,,S,,6792,246,Low Stock,20,135840,46192,4626,2.6,2.9,938,2025-01-31,Deepali
+P0196,Headphones,Electronics,Robertson-Lynch,Hebert-Castro,V005,Premium headphones designed for everyday use.,Red,Wood,S,"premium,quality",1785,44,Out of Stock,46,82110,42466,4395,4.85,4.3,353,2024-06-28,Deepali
+P0197,Headphones,Electronics,"Williams, Martinez and Christian","Mason, Herrera and Rivera",V002,Premium headphones designed for everyday use.,Brown,,M,"premium,quality",1319,404,In Stock,193,254567,34548,3386,7.27,3.6,269,2024-06-10,Deepali
+P0198,Power Bank,Electronics,"Bray, Harper and Sullivan",Smith-Cantu,V013,Premium power bank designed for everyday use.,White,,M,"premium,quality",2635,204,In Stock,20,52700,45222,3998,4.66,4,251,2025-05-09,Deepali
+P0199,Keyboard,Electronics,Walters-Pratt,Hooper-Baker,V002,Premium keyboard designed for everyday use.,Brown,,M,"premium,quality",9611,480,Low Stock,21,201831,1211,1333,2.45,4.5,567,2026-04-02,Deepali
+P0200,Keyboard,Electronics,Phillips Ltd,Garcia Ltd,V019,,,,M,,1729,90,Out of Stock,162,280098,14115,2035,2.63,4.1,692,2025-04-05,Deepali
+P0201,Power Bank,Electronics,"Smith, Martinez and Wells","Davis, Perez and Rivas",V004,,,,,,2337,337,Out of Stock,135,315495,2291,1065,1.73,2.8,28,2025-12-11,Deepali
+P0202,Smartwatch,Electronics,"Green, Wells and Ortega","Hayden, Simmons and Stewart",V001,,,,,,9576,285,Low Stock,10,95760,12496,4946,7.55,2.9,923,2026-05-02,Deepali
+P0203,Smartwatch,Electronics,Ayers-Rodriguez,Reilly PLC,V003,,,,M,,4033,297,Low Stock,144,580752,32646,4533,1.97,3.5,877,2025-12-20,Deepali
+P0204,Keyboard,Electronics,"Watkins, Frost and Smith","Garcia, Johnston and Marquez",V013,,,,M,,7301,180,In Stock,239,1744939,21191,909,4.33,3,344,2025-04-01,Deepali
+P0205,Bluetooth Speaker,Electronics,Johnson-Gonzalez,"Dyer, Brooks and Hudson",V009,Premium bluetooth speaker designed for everyday use.,Black,,L,"premium,quality",5296,338,Low Stock,274,1451104,37870,4223,1.44,3,791,2024-12-17,Deepali
+P0206,Headphones,Electronics,Flores-Fields,"Cordova, Smith and Mccarty",V009,,,,M,,6294,477,Low Stock,43,270642,34613,1690,1.37,3,719,2025-08-23,Deepali
+P0207,Power Bank,Electronics,Simon LLC,Bentley and Sons,V012,Premium power bank designed for everyday use.,Red,Wood,XL,"premium,quality",3736,178,In Stock,111,414696,5858,2963,5.32,3.1,870,2025-08-29,Deepali
+P0208,Headphones,Electronics,"Mclaughlin, Ford and Proctor","Hill, Jackson and Martin",V015,,,,S,,9378,448,Low Stock,173,1622394,9471,1312,3.81,4.6,359,2025-06-02,Deepali
+P0209,Smartwatch,Electronics,Morton Inc,"Walker, Smith and Smith",V003,Premium smartwatch designed for everyday use.,White,,XL,"premium,quality",5736,263,Out of Stock,50,286800,37242,4491,5.12,4.4,524,2025-11-04,Deepali
+P0210,Keyboard,Electronics,Johnson-Martin,Holland LLC,V016,Premium keyboard designed for everyday use.,Blue,,,"premium,quality",7255,314,Low Stock,53,384515,42461,349,2.47,3.2,429,2025-06-09,Deepali
+P0211,Bluetooth Speaker,Electronics,"Pace, Davies and Barnes","Miles, Cruz and Sampson",V015,Premium bluetooth speaker designed for everyday use.,Brown,,XL,"premium,quality",2398,405,Low Stock,77,184646,29162,2984,1.14,2.9,935,2025-09-16,Deepali
+P0212,Power Bank,Electronics,Johnson PLC,"Nichols, Davis and Martinez",V019,Premium power bank designed for everyday use.,Blue,Plastic,,"premium,quality",4696,206,Out of Stock,262,1230352,34446,1735,5.24,3.7,690,2025-03-27,Deepali
+P0213,Headphones,Electronics,Smith Group,Powell-Hayes,V016,Premium headphones designed for everyday use.,Blue,,S,"premium,quality",8510,105,In Stock,128,1089280,16703,3963,1.48,4.5,695,2025-06-13,Deepali
+P0214,Headphones,Electronics,"Stanley, Garza and Martinez","Hall, Hill and Erickson",V020,,,,L,,1122,74,Out of Stock,221,247962,46808,1809,1.67,4.8,500,2024-07-29,Deepali
+P0215,Smartwatch,Electronics,"Malone, Phillips and Flores",Garrett Group,V007,,,,,,4099,274,In Stock,84,344316,14697,3223,2.42,4.8,174,2025-06-05,Deepali
+P0216,Keyboard,Electronics,Herman-Bennett,"Garcia, Potter and Ford",V001,Premium keyboard designed for everyday use.,Black,,XL,"premium,quality",3302,491,Out of Stock,122,402844,11826,3140,1.79,4.6,486,2024-09-27,Deepali
+P0217,Headphones,Electronics,Larsen Ltd,"Taylor, Chang and Sandoval",V020,Premium headphones designed for everyday use.,Blue,,M,"premium,quality",3233,110,In Stock,221,714493,29224,1299,3.04,4.2,322,2024-10-23,Deepali
+P0218,Smartwatch,Electronics,"Herman, Vargas and Woodward",Baker-Bowers,V008,,,,XL,,4311,138,Out of Stock,294,1267434,40306,2894,3.86,3.9,484,2026-05-03,Deepali
+P0219,Smartwatch,Electronics,Brewer-Richardson,"Kent, Lee and Green",V008,,,,XL,,1363,46,In Stock,190,258970,31456,3329,7.42,3.6,503,2026-04-25,Deepali
+P0220,Bluetooth Speaker,Electronics,Harrison-Henderson,Rodriguez and Sons,V017,Premium bluetooth speaker designed for everyday use.,White,,,"premium,quality",7962,473,Out of Stock,247,1966614,12745,4499,1.75,4.9,674,2024-10-21,Deepali
+P0221,Smartwatch,Electronics,"Martin, Smith and Wright",Arias-Fisher,V013,Premium smartwatch designed for everyday use.,Black,,,"premium,quality",5668,10,In Stock,174,986232,15827,2163,5.22,4.8,524,2025-03-30,Deepali
+P0222,Smartwatch,Electronics,"Knight, Robbins and Hale","Monroe, Baker and Chapman",V004,,,,M,,834,36,Low Stock,75,62550,15347,828,4.52,3.7,929,2025-10-10,Deepali
+P0223,Smartwatch,Electronics,May and Sons,Higgins-Garcia,V005,Premium smartwatch designed for everyday use.,Blue,,,"premium,quality",3188,476,Low Stock,217,691796,16235,2204,7.49,3.1,642,2026-04-10,Deepali
+P0224,Headphones,Electronics,Anderson-Harper,"Mckinney, Allen and Lewis",V016,,,,XL,,5185,481,In Stock,151,782935,11850,1919,7.43,3,32,2025-05-03,Deepali
+P0225,Headphones,Electronics,"Riggs, Gonzalez and Mendoza",Carlson PLC,V015,Premium headphones designed for everyday use.,White,,XL,"premium,quality",7628,275,In Stock,38,289864,33957,3136,1.67,3.4,838,2025-10-01,Deepali
+P0226,Smartwatch,Electronics,"Hoffman, Caldwell and Campbell",Jackson-Bell,V006,Premium smartwatch designed for everyday use.,Black,,,"premium,quality",1044,198,Low Stock,20,20880,12539,2404,6.68,3.4,121,2024-09-24,Deepali
+P0227,Bluetooth Speaker,Electronics,Griffin-Rivera,Rodriguez PLC,V003,Premium bluetooth speaker designed for everyday use.,White,Leather,XL,"premium,quality",3369,306,Out of Stock,260,875940,8568,2117,2.6,3.5,782,2026-02-03,Deepali
+P0228,Bluetooth Speaker,Electronics,"Lambert, Keith and Curtis",Armstrong PLC,V017,Premium bluetooth speaker designed for everyday use.,White,Cotton,,"premium,quality",1738,236,In Stock,201,349338,16033,2510,0.85,2.8,653,2026-02-14,Deepali
+P0229,Smartwatch,Electronics,Hart PLC,Rodriguez PLC,V002,Premium smartwatch designed for everyday use.,Blue,,L,"premium,quality",5136,33,Low Stock,149,765264,4328,2457,6.16,4.5,325,2025-09-01,Deepali
+P0230,Bluetooth Speaker,Electronics,Peterson-Terry,Mendoza Inc,V008,,,,,,1323,46,Out of Stock,226,298998,42426,863,0.93,3.7,471,2024-06-07,Deepali
+P0231,Bluetooth Speaker,Electronics,"Erickson, Castillo and Gordon","Hammond, Nelson and Miller",V007,Premium bluetooth speaker designed for everyday use.,Red,Plastic,L,"premium,quality",1346,28,Out of Stock,256,344576,19320,4969,5.54,5,562,2025-08-04,Deepali
+P0232,Headphones,Electronics,"Harris, Brady and Davenport",Carey Group,V017,Premium headphones designed for everyday use.,Black,Wood,M,"premium,quality",7034,324,Out of Stock,248,1744432,24634,3468,5.58,2.7,29,2024-08-24,Deepali
+P0233,Smartwatch,Electronics,Parker LLC,Bell-Wilson,V009,Premium smartwatch designed for everyday use.,Blue,Leather,XL,"premium,quality",2563,108,Low Stock,37,94831,15824,2227,4.46,4.3,296,2024-11-07,Deepali
+P0234,Bluetooth Speaker,Electronics,Schultz-Larson,"Garrett, Long and Johnson",V005,Premium bluetooth speaker designed for everyday use.,Black,Wood,S,"premium,quality",1771,272,In Stock,213,377223,28328,1498,2.36,4.6,848,2025-04-01,Deepali
+P0235,Smartwatch,Electronics,Lewis Inc,Spencer-Wilson,V017,Premium smartwatch designed for everyday use.,Red,Steel,M,"premium,quality",6527,117,Out of Stock,147,959469,47835,484,1.59,4,193,2025-10-17,Deepali
+P0236,Power Bank,Electronics,Tanner-Robinson,Williams-Turner,V006,Premium power bank designed for everyday use.,Black,Steel,XL,"premium,quality",2552,120,Low Stock,279,712008,10435,3186,1.81,3.5,237,2024-12-02,Deepali
+P0237,Keyboard,Electronics,Jones-Fry,"Weeks, Trujillo and Gonzalez",V013,Premium keyboard designed for everyday use.,Red,Leather,XL,"premium,quality",6829,18,Out of Stock,84,573636,41843,1495,1.18,3.4,943,2025-02-14,Deepali
+P0238,Bluetooth Speaker,Electronics,"Fisher, Leblanc and Swanson",Aguilar-Cooper,V007,,,,XL,,6049,230,Out of Stock,73,441577,43528,4067,3.76,3.9,655,2024-06-30,Deepali
+P0239,Keyboard,Electronics,"Haas, Parks and White",Harper Inc,V012,,,,XL,,7799,466,Low Stock,250,1949750,17674,4204,0.96,3.9,651,2025-12-20,Deepali
+P0240,Bluetooth Speaker,Electronics,Foley LLC,Powell PLC,V010,Premium bluetooth speaker designed for everyday use.,Brown,Steel,S,"premium,quality",8726,324,In Stock,281,2452006,19719,4091,3.41,4.2,236,2025-02-14,Deepali
+P0241,Keyboard,Electronics,Rodriguez-Anderson,"Wilson, Hardin and Wade",V011,Premium keyboard designed for everyday use.,Black,,,"premium,quality",7803,111,Low Stock,163,1271889,29532,3503,5.78,2.6,280,2024-09-09,Deepali
+P0242,Keyboard,Electronics,Walsh-Johnson,Torres and Sons,V006,Premium keyboard designed for everyday use.,Brown,,M,"premium,quality",3378,237,Out of Stock,243,820854,8330,250,3.5,4.9,975,2025-04-20,Deepali
+P0243,Keyboard,Electronics,"Valencia, Blair and Harrison",Phillips Ltd,V004,Premium keyboard designed for everyday use.,Blue,,L,"premium,quality",1795,153,Out of Stock,231,414645,19113,3688,7.59,2.7,153,2025-05-07,Deepali
+P0244,Power Bank,Electronics,Franklin-Allen,"Griffith, Acevedo and Taylor",V014,Premium power bank designed for everyday use.,Red,,XL,"premium,quality",952,8,Out of Stock,17,16184,11200,3501,4.58,4.8,108,2025-04-21,Deepali
+P0245,Smartwatch,Electronics,"Miles, Gordon and Hernandez",Smith-Holmes,V011,Premium smartwatch designed for everyday use.,White,,L,"premium,quality",542,408,In Stock,146,79132,31122,371,5.45,3.6,98,2025-03-17,Deepali
+P0246,Keyboard,Electronics,"Daniels, Francis and Moss",Wheeler and Sons,V010,,,,,,8133,152,Out of Stock,47,382251,44692,880,4.01,3.6,122,2025-02-11,Deepali
+P0247,Bluetooth Speaker,Electronics,"Brown, Smith and Castro",Gamble Inc,V016,,,,M,,5128,191,Out of Stock,84,430752,7248,4575,4.59,2.5,135,2024-06-08,Deepali
+P0248,Headphones,Electronics,"Knight, Young and Richardson","Gross, Keith and Webster",V015,Premium headphones designed for everyday use.,Brown,,S,"premium,quality",7973,323,Out of Stock,24,191352,48602,2699,4.21,4.3,804,2025-06-22,Deepali
+P0249,Keyboard,Electronics,Cohen-Miller,Smith-Brown,V020,Premium keyboard designed for everyday use.,Black,,,"premium,quality",6463,38,Low Stock,206,1331378,25668,3098,1.23,4.3,101,2025-03-25,Deepali
+P0250,Bluetooth Speaker,Electronics,Valdez-Mcmillan,Sullivan-Newman,V002,Premium bluetooth speaker designed for everyday use.,Blue,,,"premium,quality",1176,314,Low Stock,144,169344,24397,3554,0.88,4.1,348,2025-07-22,Deepali
+P0251,Storage Box,Home & Kitchen,"Jones, Heath and Welch","Welch, Sanders and Buckley",V004,Premium storage box designed for everyday use.,Brown,,S,"premium,quality",487,29,Low Stock,235,114445,46301,3640,7.18,3.9,173,2025-10-27,Deepali
+P0252,Mixer Grinder,Home & Kitchen,Wiley Group,Hernandez-Rowe,V016,Premium mixer grinder designed for everyday use.,White,Cotton,S,"premium,quality",2767,164,Out of Stock,117,323739,38065,4453,2.96,3.2,58,2025-03-19,Deepali
+P0253,Cookware Set,Home & Kitchen,Barnes-Wheeler,Cook Inc,V018,Premium cookware set designed for everyday use.,Blue,,,"premium,quality",1743,84,Low Stock,35,61005,27215,2986,1.81,3.7,562,2025-02-03,Deepali
+P0254,Wall Shelf,Home & Kitchen,Scott-Ray,"Day, Velez and Cook",V014,Premium wall shelf designed for everyday use.,Brown,,,"premium,quality",2923,433,Low Stock,91,265993,27987,1304,2.86,2.7,275,2025-12-13,Deepali
+P0255,Wall Shelf,Home & Kitchen,Nichols LLC,Clark LLC,V005,Premium wall shelf designed for everyday use.,White,,L,"premium,quality",4758,143,In Stock,281,1336998,37671,3607,5.76,4.9,968,2024-09-20,Deepali
+P0256,Storage Box,Home & Kitchen,West-Moreno,Mejia Group,V016,,,,M,,1292,298,Low Stock,122,157624,37742,3767,1.97,2.9,637,2025-11-01,Deepali
+P0257,Storage Box,Home & Kitchen,Harris Group,"Santos, Rodriguez and Davis",V020,Premium storage box designed for everyday use.,Blue,,,"premium,quality",953,108,In Stock,163,155339,36036,2298,3.62,2.6,12,2024-10-30,Deepali
+P0258,Mixer Grinder,Home & Kitchen,Gomez-Mejia,"Stafford, Fischer and Steele",V020,,,,S,,4543,379,Low Stock,14,63602,6939,3394,6.6,2.9,708,2025-05-13,Deepali
+P0259,Storage Box,Home & Kitchen,"Sloan, Peterson and Hall",Williams Group,V018,Premium storage box designed for everyday use.,Black,,XL,"premium,quality",4119,400,In Stock,29,119451,41324,2214,2.62,2.7,633,2025-01-06,Deepali
+P0260,Mixer Grinder,Home & Kitchen,Simpson-Johnson,Hughes-Stevenson,V011,Premium mixer grinder designed for everyday use.,Red,,L,"premium,quality",3737,196,Low Stock,217,810929,23549,2536,3.92,3.1,962,2026-04-24,Deepali
+P0261,Cookware Set,Home & Kitchen,Holloway Ltd,"Burns, Parker and Patel",V012,Premium cookware set designed for everyday use.,Red,,XL,"premium,quality",2852,328,Out of Stock,41,116932,32946,3639,2.84,3.7,742,2026-02-03,Deepali
+P0262,Wall Shelf,Home & Kitchen,"Coleman, Phillips and Mitchell","Conley, Young and Silva",V017,Premium wall shelf designed for everyday use.,Black,,XL,"premium,quality",7714,346,In Stock,84,647976,29050,2795,7.24,4.3,530,2024-07-10,Deepali
+P0263,Mixer Grinder,Home & Kitchen,Jones-Bennett,Moore-Lopez,V009,Premium mixer grinder designed for everyday use.,Brown,,,"premium,quality",688,119,Low Stock,273,187824,40359,4775,3.17,3.5,862,2024-11-25,Deepali
+P0264,Storage Box,Home & Kitchen,"Edwards, Burton and Morales",Bryant Group,V001,Premium storage box designed for everyday use.,Brown,Cotton,S,"premium,quality",3225,2,Out of Stock,148,477300,13454,2788,3.31,4.7,148,2024-09-02,Deepali
+P0265,Coffee Table,Home & Kitchen,Myers-Thornton,"Humphrey, Mccormick and Garcia",V001,Premium coffee table designed for everyday use.,Blue,Leather,S,"premium,quality",2335,499,In Stock,271,632785,30378,2707,2.25,4.5,103,2024-10-28,Deepali
+P0266,Mixer Grinder,Home & Kitchen,Sanchez-Elliott,Dorsey Inc,V018,Premium mixer grinder designed for everyday use.,Blue,,S,"premium,quality",3791,181,Low Stock,12,45492,47813,4204,4.42,2.6,580,2025-07-21,Deepali
+P0267,Coffee Table,Home & Kitchen,Griffin-Reed,Allison PLC,V020,Premium coffee table designed for everyday use.,Brown,,S,"premium,quality",7016,73,In Stock,232,1627712,47157,2984,3.18,4.6,296,2024-06-10,Deepali
+P0268,Cookware Set,Home & Kitchen,"Long, Brown and Johnson","Evans, Johnson and Johnson",V001,Premium cookware set designed for everyday use.,Black,Cotton,S,"premium,quality",9347,408,Low Stock,17,158899,1122,1344,7.83,3.5,19,2026-02-16,Deepali
+P0269,Cookware Set,Home & Kitchen,"Johnson, Johnson and Zimmerman",Lewis Group,V013,,,,L,,2416,248,Low Stock,151,364816,38340,832,7.99,4.8,662,2024-12-28,Deepali
+P0270,Storage Box,Home & Kitchen,Martin-Murray,Williams-Murphy,V011,,,,M,,8678,24,Out of Stock,249,2160822,43442,3931,4.13,4.9,824,2025-02-21,Deepali
+P0271,Storage Box,Home & Kitchen,Baker Ltd,Young Ltd,V020,,,,,,9079,482,In Stock,67,608293,41507,1854,4.02,3.3,897,2025-12-04,Deepali
+P0272,Cookware Set,Home & Kitchen,Brown PLC,Davis Ltd,V010,Premium cookware set designed for everyday use.,White,Wood,,"premium,quality",9661,377,Low Stock,144,1391184,42224,992,5.04,3.5,957,2025-04-18,Deepali
+P0273,Cookware Set,Home & Kitchen,"Rodriguez, Spears and Carter","Williams, Santos and Gray",V017,Premium cookware set designed for everyday use.,White,,L,"premium,quality",7567,111,Out of Stock,62,469154,48274,66,3.36,3.6,286,2026-04-11,Deepali
+P0274,Wall Shelf,Home & Kitchen,Collins-Marsh,Armstrong Group,V003,Premium wall shelf designed for everyday use.,White,,,"premium,quality",2992,65,In Stock,108,323136,13494,4839,4.94,2.7,845,2025-11-04,Deepali
+P0275,Mixer Grinder,Home & Kitchen,Cruz-Jones,Williams-Marquez,V018,Premium mixer grinder designed for everyday use.,Black,Steel,,"premium,quality",722,100,Low Stock,136,98192,29762,2748,1.9,4.4,139,2024-09-06,Deepali
+P0276,Wall Shelf,Home & Kitchen,Petersen Ltd,"Blackwell, Lambert and Lozano",V015,Premium wall shelf designed for everyday use.,Blue,,L,"premium,quality",9489,398,In Stock,112,1062768,22811,985,2.62,3.7,139,2024-09-29,Deepali
+P0277,Cookware Set,Home & Kitchen,Fox PLC,Rodriguez Ltd,V015,Premium cookware set designed for everyday use.,Blue,,S,"premium,quality",955,203,Out of Stock,26,24830,45234,835,5.65,2.7,811,2025-01-20,Deepali
+P0278,Mixer Grinder,Home & Kitchen,Henderson and Sons,Colon-Johnson,V005,Premium mixer grinder designed for everyday use.,Red,,M,"premium,quality",1397,291,Low Stock,247,345059,21486,1459,2.1,3.3,989,2025-08-21,Deepali
+P0279,Mixer Grinder,Home & Kitchen,"Ray, Gregory and Greene","Heath, Jimenez and Johnston",V002,Premium mixer grinder designed for everyday use.,Red,Steel,,"premium,quality",2565,495,In Stock,25,64125,9312,3108,4.88,2.8,775,2024-10-06,Deepali
+P0280,Coffee Table,Home & Kitchen,"Parrish, Austin and Daniels",Griffith Inc,V013,Premium coffee table designed for everyday use.,White,,S,"premium,quality",655,115,Out of Stock,280,183400,12171,2380,5.53,4.6,256,2024-12-17,Deepali
+P0281,Storage Box,Home & Kitchen,Wiley-Fisher,Hart Group,V013,,,,S,,9947,133,Low Stock,75,746025,46457,2889,6.91,4.7,28,2024-08-24,Deepali
+P0282,Coffee Table,Home & Kitchen,Bowman-Ellis,Phillips LLC,V014,Premium coffee table designed for everyday use.,Black,,XL,"premium,quality",7792,327,Out of Stock,205,1597360,20059,2299,7.28,4.4,246,2024-11-17,Deepali
+P0283,Coffee Table,Home & Kitchen,"Fernandez, Wright and Patterson","Johnson, Hart and Bennett",V018,Premium coffee table designed for everyday use.,Black,,,"premium,quality",7332,32,In Stock,108,791856,46083,1021,2.67,3.9,614,2025-09-30,Deepali
+P0284,Cookware Set,Home & Kitchen,Gray LLC,"Edwards, Pruitt and Smith",V018,Premium cookware set designed for everyday use.,Black,,,"premium,quality",8270,34,In Stock,227,1877290,27042,4512,2.9,3.4,487,2026-03-08,Deepali
+P0285,Cookware Set,Home & Kitchen,Crawford-Lyons,Morgan-Roy,V018,Premium cookware set designed for everyday use.,White,,,"premium,quality",7271,445,Out of Stock,24,174504,45275,2212,1.5,4.8,559,2024-07-11,Deepali
+P0286,Mixer Grinder,Home & Kitchen,"Davis, Harris and Joseph",Nelson-Smith,V016,,,,L,,4462,310,Low Stock,33,147246,31189,4165,4.44,5,625,2025-02-13,Deepali
+P0287,Cookware Set,Home & Kitchen,Sanchez-White,Bowen LLC,V007,,,,M,,420,134,Out of Stock,24,10080,24512,3325,1.29,4.2,417,2026-03-14,Deepali
+P0288,Cookware Set,Home & Kitchen,Sims-Wilson,"Cervantes, Roberts and Russo",V011,,,,L,,1147,154,Out of Stock,88,100936,28201,2040,0.74,3.8,653,2025-12-25,Deepali
+P0289,Mixer Grinder,Home & Kitchen,Norman Inc,"Strickland, Heath and Kelley",V013,Premium mixer grinder designed for everyday use.,Blue,Plastic,M,"premium,quality",388,148,In Stock,264,102432,31257,4935,0.87,3.2,350,2026-01-16,Deepali
+P0290,Cookware Set,Home & Kitchen,"Moody, Brock and Shaffer",Pratt-Salazar,V001,,,,M,,8401,58,Low Stock,140,1176140,20875,1610,3.37,4.1,743,2025-01-13,Deepali
+P0291,Mixer Grinder,Home & Kitchen,Richard-Coleman,"Cooper, Perry and Christensen",V006,Premium mixer grinder designed for everyday use.,Red,,M,"premium,quality",431,485,Low Stock,202,87062,48884,4576,5.76,3.4,880,2024-12-31,Deepali
+P0292,Wall Shelf,Home & Kitchen,Gomez-Morales,"Peck, Banks and Jackson",V012,Premium wall shelf designed for everyday use.,Brown,,L,"premium,quality",1330,137,Out of Stock,49,65170,15188,1262,7.77,3,924,2025-06-15,Deepali
+P0293,Mixer Grinder,Home & Kitchen,"Strickland, Barnes and Green",Edwards LLC,V003,Premium mixer grinder designed for everyday use.,White,,M,"premium,quality",9664,135,Low Stock,23,222272,28560,1823,7.95,4.1,716,2025-07-18,Deepali
+P0294,Coffee Table,Home & Kitchen,Hamilton PLC,Norris-Mclean,V005,,,,L,,8289,301,Out of Stock,63,522207,14018,1279,0.88,4.7,10,2024-12-12,Deepali
+P0295,Mixer Grinder,Home & Kitchen,Campbell-Blankenship,Brown and Sons,V018,,,,,,569,420,In Stock,127,72263,34686,986,2.79,4.5,216,2024-07-15,Deepali
+P0296,Coffee Table,Home & Kitchen,"Skinner, Carrillo and Hernandez",Jennings-Reyes,V003,Premium coffee table designed for everyday use.,White,,L,"premium,quality",5430,11,Out of Stock,299,1623570,37839,2843,0.79,4.1,227,2026-03-29,Deepali
+P0297,Wall Shelf,Home & Kitchen,"Escobar, Hunter and Wilson",Johnson Ltd,V018,Premium wall shelf designed for everyday use.,Brown,,L,"premium,quality",1065,443,In Stock,113,120345,7826,3956,4.76,4.3,141,2024-11-15,Deepali
+P0298,Mixer Grinder,Home & Kitchen,"Taylor, Stokes and Decker","Garcia, Harris and Johnson",V016,Premium mixer grinder designed for everyday use.,Brown,,,"premium,quality",540,233,In Stock,85,45900,27182,951,1.92,4.1,975,2025-06-18,Deepali
+P0299,Wall Shelf,Home & Kitchen,"Diaz, Wall and Morales",Brennan-Friedman,V002,Premium wall shelf designed for everyday use.,Blue,,L,"premium,quality",1683,444,Low Stock,82,138006,38552,3220,5.41,4.8,907,2025-12-15,Deepali
+P0300,Coffee Table,Home & Kitchen,Kelly Group,"Smith, Morgan and Phillips",V004,Premium coffee table designed for everyday use.,Black,Wood,XL,"premium,quality",5633,268,In Stock,106,597098,11581,4462,2.69,3.8,52,2025-02-01,Deepali
+P0301,Storage Box,Home & Kitchen,Woodard-Martin,Garcia and Sons,V009,Premium storage box designed for everyday use.,Blue,Leather,L,"premium,quality",7474,247,In Stock,66,493284,16319,4909,1.96,4.8,346,2025-12-02,Deepali
+P0302,Mixer Grinder,Home & Kitchen,"Small, Fisher and Dougherty","Wilson, Jackson and Holmes",V006,Premium mixer grinder designed for everyday use.,Brown,,S,"premium,quality",2892,412,Low Stock,286,827112,19828,2083,4.18,2.9,732,2025-11-10,Deepali
+P0303,Wall Shelf,Home & Kitchen,Mendoza-Baker,"Peterson, Hess and Warren",V008,Premium wall shelf designed for everyday use.,Blue,Plastic,S,"premium,quality",3744,451,Low Stock,27,101088,27091,4867,0.6,3.2,450,2025-07-29,Deepali
+P0304,Coffee Table,Home & Kitchen,Ruiz Ltd,"Crawford, Morris and Tucker",V016,,,,M,,9425,433,Low Stock,249,2346825,25048,4197,6.44,4.7,287,2026-05-09,Deepali
+P0305,Storage Box,Home & Kitchen,Nelson Ltd,"Powell, Krueger and Huffman",V007,Premium storage box designed for everyday use.,Blue,Leather,S,"premium,quality",1381,304,Low Stock,28,38668,2889,4323,0.85,4.9,473,2025-12-31,Deepali
+P0306,Cookware Set,Home & Kitchen,Barber LLC,Turner Ltd,V011,,,,,,377,150,Low Stock,38,14326,9135,267,4.3,3,194,2025-07-15,Deepali
+P0307,Wall Shelf,Home & Kitchen,"Lewis, Rivers and Morris","Young, Burton and Hunter",V019,,,,L,,6396,391,Out of Stock,210,1343160,8750,516,3.33,3.3,116,2025-08-12,Deepali
+P0308,Wall Shelf,Home & Kitchen,"Walker, Mitchell and Small","Parsons, Olson and Kane",V007,,,,M,,7446,263,In Stock,8,59568,48467,2521,3.62,3.7,221,2025-03-16,Deepali
+P0309,Storage Box,Home & Kitchen,"Castaneda, Schmidt and Morris",Powell-Sanders,V017,Premium storage box designed for everyday use.,Black,,,"premium,quality",2860,214,Low Stock,154,440440,5374,3763,6.64,3.4,965,2024-08-19,Deepali
+P0310,Mixer Grinder,Home & Kitchen,Mccullough-Gutierrez,"Chapman, Barnett and Ortiz",V006,,,,S,,3850,414,In Stock,70,269500,14609,295,2.14,3.2,398,2025-04-24,Deepali
+P0311,Coffee Table,Home & Kitchen,Brown-Fischer,Moon-Harrison,V020,Premium coffee table designed for everyday use.,White,Leather,XL,"premium,quality",9671,199,Low Stock,209,2021239,19048,4787,1.82,4,783,2025-06-02,Deepali
+P0312,Wall Shelf,Home & Kitchen,Thomas LLC,Lopez PLC,V013,Premium wall shelf designed for everyday use.,Black,,L,"premium,quality",4696,194,In Stock,147,690312,11095,739,3.38,2.6,8,2025-06-01,Deepali
+P0313,Storage Box,Home & Kitchen,"Gomez, Garcia and Price",Hines-Peterson,V014,Premium storage box designed for everyday use.,Blue,,L,"premium,quality",7355,41,Low Stock,17,125035,31019,392,0.76,3.5,345,2025-09-01,Deepali
+P0314,Storage Box,Home & Kitchen,Robbins-Decker,Pierce Group,V002,Premium storage box designed for everyday use.,Blue,Leather,,"premium,quality",2167,238,Out of Stock,166,359722,47257,3500,0.89,2.8,672,2024-09-30,Deepali
+P0315,Storage Box,Home & Kitchen,"Parker, Solis and Koch","Elliott, Shelton and King",V011,Premium storage box designed for everyday use.,White,Steel,,"premium,quality",3392,311,Out of Stock,80,271360,22681,3123,2.46,3.9,992,2024-09-06,Deepali
+P0316,Mixer Grinder,Home & Kitchen,"Thomas, Cabrera and Marks",Murillo and Sons,V003,,,,L,,4182,23,In Stock,283,1183506,10513,3403,1.21,3.2,121,2025-09-02,Deepali
+P0317,Wall Shelf,Home & Kitchen,"Vasquez, Morris and Morrow",Erickson Inc,V020,Premium wall shelf designed for everyday use.,Red,,,"premium,quality",4594,217,Low Stock,115,528310,41508,3152,7.27,4.7,115,2025-04-26,Deepali
+P0318,Storage Box,Home & Kitchen,Tucker Inc,Dixon Inc,V014,,,,M,,3521,140,Low Stock,148,521108,28108,1842,4.9,4.6,739,2024-07-08,Deepali
+P0319,Wall Shelf,Home & Kitchen,Frank-Martinez,Case Ltd,V017,Premium wall shelf designed for everyday use.,Blue,,L,"premium,quality",6441,144,Out of Stock,236,1520076,48577,1012,6.63,3.2,987,2024-12-10,Deepali
+P0320,Coffee Table,Home & Kitchen,Wiggins-Huynh,"Willis, Edwards and Hardy",V019,,,,,,1584,92,Out of Stock,177,280368,46494,2010,4.63,2.7,843,2025-08-23,Deepali
+P0321,Cookware Set,Home & Kitchen,Montoya-Savage,"Martinez, Meyer and Cook",V004,Premium cookware set designed for everyday use.,Brown,,XL,"premium,quality",7641,472,In Stock,270,2063070,43512,1239,6.17,4.1,528,2025-08-20,Deepali
+P0322,Coffee Table,Home & Kitchen,Yang-Martinez,White-Rhodes,V015,Premium coffee table designed for everyday use.,Blue,,L,"premium,quality",6022,19,Out of Stock,270,1625940,34791,115,4.94,3.4,643,2025-05-25,Deepali
+P0323,Storage Box,Home & Kitchen,Cook-Miller,"Carr, Cook and Thompson",V005,Premium storage box designed for everyday use.,Blue,,,"premium,quality",933,424,Out of Stock,263,245379,7605,929,2.19,4.4,88,2025-10-23,Deepali
+P0324,Coffee Table,Home & Kitchen,"Russell, Conner and Weeks","Cooper, Leon and Morales",V020,Premium coffee table designed for everyday use.,Brown,,,"premium,quality",2461,38,In Stock,282,694002,20578,1998,1.62,2.8,478,2026-01-12,Deepali
+P0325,Storage Box,Home & Kitchen,Landry PLC,"Kim, Fox and Cobb",V008,,,,M,,8349,487,Out of Stock,8,66792,28586,3710,2.22,3.5,767,2025-05-14,Deepali
+P0326,Storage Box,Home & Kitchen,"Diaz, Burke and Baker",Hawkins-Scott,V012,,,,L,,9332,295,Out of Stock,44,410608,10413,829,5.28,3.2,449,2024-07-08,Deepali
+P0327,Wall Shelf,Home & Kitchen,"Martinez, Mathis and Ortega",Erickson-Ayala,V016,Premium wall shelf designed for everyday use.,Black,,L,"premium,quality",5976,232,In Stock,258,1541808,14935,3729,3.08,3.4,152,2024-07-31,Deepali
+P0328,Wall Shelf,Home & Kitchen,Long LLC,Lin-Schmidt,V017,,,,XL,,721,340,In Stock,200,144200,7424,2487,1.47,4.5,719,2025-09-09,Deepali
+P0329,Wall Shelf,Home & Kitchen,"Stewart, Williams and Aguilar",Johnson-Bauer,V005,,,,L,,4679,55,Out of Stock,241,1127639,31105,1979,7.77,4,232,2026-02-12,Deepali
+P0330,Mixer Grinder,Home & Kitchen,Rodriguez Ltd,Benson LLC,V004,Premium mixer grinder designed for everyday use.,White,,,"premium,quality",664,111,In Stock,172,114208,18345,4851,3.31,4,520,2026-04-14,Deepali
+P0331,Mixer Grinder,Home & Kitchen,"Randall, Gonzales and Willis",Hall Inc,V015,Premium mixer grinder designed for everyday use.,Blue,,M,"premium,quality",3758,226,In Stock,207,777906,12042,3814,4.73,4.7,987,2025-01-21,Deepali
+P0332,Coffee Table,Home & Kitchen,Vasquez-Miller,Anderson-Clayton,V018,Premium coffee table designed for everyday use.,Brown,,S,"premium,quality",7723,413,Low Stock,74,571502,27438,341,6.59,3.1,378,2024-07-11,Deepali
+P0333,Wall Shelf,Home & Kitchen,Hayes-Lawrence,Jones-Morris,V009,,,,L,,7080,113,Out of Stock,248,1755840,21345,3874,2.25,4.1,777,2025-02-02,Deepali
+P0334,Coffee Table,Home & Kitchen,Branch LLC,Fitzgerald-Stevens,V002,Premium coffee table designed for everyday use.,White,,,"premium,quality",2466,202,Low Stock,230,567180,22271,4803,6.63,3,981,2026-05-27,Deepali
+P0335,Wall Shelf,Home & Kitchen,"Wolf, Tucker and Gonzalez","York, Garcia and White",V017,,,,S,,1263,133,In Stock,44,55572,6512,425,3.93,3.6,203,2025-03-06,Deepali
+P0336,Coffee Table,Home & Kitchen,Stephens-Strickland,"Gill, Campbell and Adams",V004,Premium coffee table designed for everyday use.,Red,,,"premium,quality",6309,335,In Stock,231,1457379,42370,4822,0.75,4.5,806,2026-05-04,Deepali
+P0337,Coffee Table,Home & Kitchen,"Figueroa, Lawson and Henry",Gonzalez LLC,V004,Premium coffee table designed for everyday use.,Brown,Steel,M,"premium,quality",8569,99,Out of Stock,179,1533851,39616,3905,2.13,4,505,2024-08-06,Deepali
+P0338,Mixer Grinder,Home & Kitchen,Jones-Simmons,"French, Wilson and King",V004,,,,XL,,3809,203,In Stock,220,837980,34503,2672,5.91,4.5,402,2025-09-14,Deepali
+P0339,Cookware Set,Home & Kitchen,"Davis, Carroll and Williams",Lynch-Rodriguez,V013,,,,M,,4082,267,In Stock,242,987844,44043,715,6.37,2.6,954,2026-03-15,Deepali
+P0340,Storage Box,Home & Kitchen,"Evans, Gordon and Castro",Terry Ltd,V019,Premium storage box designed for everyday use.,Black,,S,"premium,quality",6031,339,In Stock,153,922743,37254,3223,1.04,3.4,984,2025-06-16,Deepali
+P0341,Coffee Table,Home & Kitchen,Thomas-Fuentes,Rose Ltd,V012,Premium coffee table designed for everyday use.,Red,,,"premium,quality",8269,334,Low Stock,59,487871,22524,1106,6.51,4.4,261,2025-03-02,Deepali
+P0342,Mixer Grinder,Home & Kitchen,Wilson Group,"Hernandez, Harris and Hood",V003,Premium mixer grinder designed for everyday use.,Red,,M,"premium,quality",1787,341,Out of Stock,79,141173,45490,1677,7.65,2.9,798,2025-12-18,Deepali
+P0343,Wall Shelf,Home & Kitchen,Bradley Ltd,"Ortega, Sherman and Young",V005,Premium wall shelf designed for everyday use.,Blue,,,"premium,quality",8144,299,Out of Stock,287,2337328,30740,2644,5.86,4.9,198,2024-12-12,Deepali
+P0344,Storage Box,Home & Kitchen,Scott-Young,Butler-Kirby,V008,,,,M,,2262,330,Out of Stock,119,269178,25433,229,7.88,4.6,73,2025-03-15,Deepali
+P0345,Cookware Set,Home & Kitchen,Alvarado-Patrick,"Kelley, Davenport and Guzman",V007,Premium cookware set designed for everyday use.,White,,XL,"premium,quality",5009,232,In Stock,173,866557,13556,4452,5.56,4,662,2026-01-09,Deepali
+P0346,Storage Box,Home & Kitchen,Cortez-Lee,"Melendez, Carr and Smith",V015,Premium storage box designed for everyday use.,White,Steel,L,"premium,quality",7753,339,Out of Stock,88,682264,28880,4872,2.02,3.3,970,2025-05-28,Deepali
+P0347,Storage Box,Home & Kitchen,"Graham, Norris and Gibson",Williams Ltd,V016,Premium storage box designed for everyday use.,Red,Leather,S,"premium,quality",8959,150,In Stock,210,1881390,47722,4230,1.27,4.3,625,2025-02-19,Deepali
+P0348,Storage Box,Home & Kitchen,Clark Ltd,Hayes-Sparks,V001,Premium storage box designed for everyday use.,White,,M,"premium,quality",6903,319,In Stock,126,869778,42890,3513,7.7,2.6,913,2024-09-07,Deepali
+P0349,Wall Shelf,Home & Kitchen,"House, Reynolds and Johnson",Cunningham LLC,V003,Premium wall shelf designed for everyday use.,Black,Leather,,"premium,quality",5534,438,In Stock,160,885440,43034,2259,2.09,4,795,2026-02-19,Deepali
+P0350,Wall Shelf,Home & Kitchen,Murphy Group,White Ltd,V002,Premium wall shelf designed for everyday use.,Blue,,S,"premium,quality",712,420,In Stock,34,24208,29145,1108,1.07,4.3,736,2025-03-27,Deepali
+P0351,Face Wash,Beauty,"Castillo, Williams and Barry",Terry Inc,V007,,,,S,,7615,241,Out of Stock,104,791960,32675,512,5.27,3.7,99,2025-07-09,Deepali
+P0352,Lipstick,Beauty,Randall-Trevino,"Lewis, Herrera and Burke",V005,,,,S,,6253,46,In Stock,174,1088022,48339,129,3.56,4.6,731,2026-03-22,Deepali
+P0353,Lipstick,Beauty,"Hart, Brown and Harris",Montoya-Scott,V006,,,,M,,9711,425,Low Stock,52,504972,7518,3655,7.77,3.9,386,2025-10-12,Deepali
+P0354,Serum,Beauty,Romero-Joseph,Jones Inc,V020,Premium serum designed for everyday use.,Black,,M,"premium,quality",433,406,In Stock,226,97858,31413,3357,3.98,5,145,2026-05-10,Deepali
+P0355,Lipstick,Beauty,Moore-Douglas,Rodriguez-Schroeder,V016,Premium lipstick designed for everyday use.,Black,,L,"premium,quality",2881,477,Low Stock,8,23048,39777,3473,0.96,4.1,903,2025-09-12,Deepali
+P0356,Lipstick,Beauty,"Collins, Mata and Williams",Garcia-Mitchell,V009,,,,M,,883,10,Out of Stock,139,122737,25143,109,2.63,4.3,503,2025-03-01,Deepali
+P0357,Moisturizer,Beauty,"Briggs, Jones and Johnson","Pugh, Brooks and Nicholson",V001,Premium moisturizer designed for everyday use.,Black,,,"premium,quality",4823,29,Low Stock,168,810264,30511,2904,3.58,3.6,508,2025-12-07,Deepali
+P0358,Serum,Beauty,"Smith, Herrera and Carlson",Baker-Farrell,V020,Premium serum designed for everyday use.,Red,,M,"premium,quality",6743,125,In Stock,212,1429516,14913,1495,5.18,3,832,2024-10-27,Deepali
+P0359,Face Wash,Beauty,Liu Ltd,"Watkins, Hill and Wheeler",V006,,,,M,,1652,452,Out of Stock,253,417956,33372,666,7.7,3.6,84,2025-07-06,Deepali
+P0360,Moisturizer,Beauty,Olson-Nelson,Gill Inc,V003,,,,S,,1878,278,Out of Stock,126,236628,10813,869,0.8,4,695,2024-08-22,Deepali
+P0361,Serum,Beauty,"Weber, Bradley and Hartman","Fox, Stewart and Snyder",V013,,,,S,,8606,449,Low Stock,170,1463020,21734,4694,2.18,3.1,431,2025-05-17,Deepali
+P0362,Moisturizer,Beauty,"Peterson, Hubbard and Burton",Cook Group,V003,Premium moisturizer designed for everyday use.,Brown,Cotton,M,"premium,quality",5441,131,Out of Stock,168,914088,18936,476,6.5,2.8,229,2025-08-08,Deepali
+P0363,Shampoo,Beauty,Gomez LLC,Vincent Ltd,V014,,,,M,,6607,386,Low Stock,75,495525,15268,61,4.95,3.9,376,2025-02-07,Deepali
+P0364,Face Wash,Beauty,Shelton and Sons,Gonzales and Sons,V017,Premium face wash designed for everyday use.,Red,Steel,,"premium,quality",4217,112,Low Stock,142,598814,34219,930,3.26,4.7,599,2025-09-22,Deepali
+P0365,Serum,Beauty,Mitchell-Sherman,Burton Ltd,V001,Premium serum designed for everyday use.,Black,,L,"premium,quality",7341,273,Low Stock,181,1328721,21669,4125,1.15,3.7,230,2026-05-24,Deepali
+P0366,Shampoo,Beauty,Salas Ltd,Fuentes-Singleton,V005,Premium shampoo designed for everyday use.,White,,,"premium,quality",7334,116,In Stock,29,212686,9817,437,4.17,3.5,943,2026-04-02,Deepali
+P0367,Face Wash,Beauty,Campos-Johnson,Perez-Ross,V013,Premium face wash designed for everyday use.,Brown,,M,"premium,quality",4316,142,In Stock,27,116532,22678,3803,3.8,3.5,982,2026-04-21,Deepali
+P0368,Lipstick,Beauty,"Flynn, White and Paul",Smith-Richards,V003,Premium lipstick designed for everyday use.,Black,Steel,M,"premium,quality",1245,228,Out of Stock,62,77190,13676,4273,5.38,4.2,401,2024-11-15,Deepali
+P0369,Face Wash,Beauty,Garcia Group,Robinson-Rowland,V010,Premium face wash designed for everyday use.,Black,,S,"premium,quality",6102,164,Out of Stock,276,1684152,6606,458,1.47,3.1,166,2025-11-13,Deepali
+P0370,Face Wash,Beauty,Johnson LLC,Patel Inc,V016,Premium face wash designed for everyday use.,Brown,,L,"premium,quality",3404,46,Low Stock,252,857808,27390,106,2.02,4.9,311,2026-03-23,Deepali
+P0371,Moisturizer,Beauty,Chambers PLC,Chandler PLC,V018,Premium moisturizer designed for everyday use.,Blue,,M,"premium,quality",4913,442,Low Stock,179,879427,5532,1171,4.51,3.7,556,2025-04-04,Deepali
+P0372,Face Wash,Beauty,Young Group,Morrison-Snyder,V007,Premium face wash designed for everyday use.,Brown,Cotton,XL,"premium,quality",4447,367,Out of Stock,282,1254054,47969,2597,6.3,2.7,274,2024-07-03,Deepali
+P0373,Shampoo,Beauty,Brady-Watkins,Meza-Mcclain,V009,Premium shampoo designed for everyday use.,Blue,,XL,"premium,quality",4455,216,In Stock,280,1247400,16866,3132,3.79,4.4,604,2025-03-04,Deepali
+P0374,Serum,Beauty,"Hall, Castillo and Stewart",Brock-Gregory,V013,Premium serum designed for everyday use.,Red,Wood,M,"premium,quality",4662,211,In Stock,29,135198,32160,4718,5.46,3.9,372,2024-07-30,Deepali
+P0375,Lipstick,Beauty,"Roberts, Reed and Gutierrez","Rodriguez, Perry and Clark",V016,,,,XL,,3877,3,Out of Stock,32,124064,11806,4441,4.66,3.7,557,2024-07-02,Deepali
+P0376,Moisturizer,Beauty,Taylor and Sons,"Hebert, Jones and Gardner",V004,,,,XL,,1977,152,In Stock,222,438894,8610,4862,6.61,2.7,334,2024-10-24,Deepali
+P0377,Moisturizer,Beauty,"Myers, Hammond and Wagner","Guzman, Tate and White",V005,,,,XL,,1821,478,In Stock,97,176637,19429,3269,4.7,4.2,464,2025-02-04,Deepali
+P0378,Serum,Beauty,Howell LLC,"Brady, Walsh and Wade",V009,,,,S,,6007,204,Out of Stock,287,1724009,5036,4304,3.86,3.4,299,2025-03-30,Deepali
+P0379,Moisturizer,Beauty,Mcdonald-Montoya,Hughes and Sons,V014,Premium moisturizer designed for everyday use.,Brown,,XL,"premium,quality",6208,428,Out of Stock,24,148992,31644,3111,2.65,4.2,877,2025-12-21,Deepali
+P0380,Shampoo,Beauty,Smith-Walton,"Taylor, Bowman and Taylor",V013,,,,XL,,6539,132,In Stock,132,863148,17294,4890,4.55,2.6,466,2025-11-20,Deepali
+P0381,Face Wash,Beauty,Young-Baker,Woods-Caldwell,V003,Premium face wash designed for everyday use.,Red,,L,"premium,quality",495,23,In Stock,39,19305,28727,1205,3.33,4.1,545,2025-01-01,Deepali
+P0382,Shampoo,Beauty,Anderson PLC,Martin PLC,V005,Premium shampoo designed for everyday use.,Brown,,,"premium,quality",4033,384,Out of Stock,5,20165,49387,4741,3.14,4.7,603,2025-04-21,Deepali
+P0383,Lipstick,Beauty,Sanchez Group,Dyer Ltd,V009,Premium lipstick designed for everyday use.,Brown,,L,"premium,quality",5786,307,Low Stock,51,295086,45764,2392,6.11,3.1,817,2025-10-02,Deepali
+P0384,Moisturizer,Beauty,Matthews PLC,White LLC,V004,,,,S,,9154,97,Out of Stock,214,1958956,25009,2531,4.15,3,85,2026-05-03,Deepali
+P0385,Shampoo,Beauty,"Tran, Jackson and Ramsey","Davila, Newton and Nelson",V011,Premium shampoo designed for everyday use.,Black,,M,"premium,quality",3181,183,In Stock,284,903404,1543,2860,7.21,2.9,956,2025-11-19,Deepali
+P0386,Face Wash,Beauty,Douglas LLC,"Anderson, Crawford and Hernandez",V013,Premium face wash designed for everyday use.,Red,,M,"premium,quality",4919,422,In Stock,154,757526,4468,4718,7.07,3.7,80,2025-03-26,Deepali
+P0387,Shampoo,Beauty,Livingston-Rice,Andrews-Craig,V008,Premium shampoo designed for everyday use.,White,,,"premium,quality",2692,336,Low Stock,269,724148,33111,3079,6.03,4.8,842,2025-09-12,Deepali
+P0388,Face Wash,Beauty,Singh-Cruz,Charles-Yang,V020,Premium face wash designed for everyday use.,Red,,XL,"premium,quality",4445,126,Out of Stock,43,191135,35282,1835,1.39,3.6,315,2025-12-07,Deepali
+P0389,Lipstick,Beauty,Mitchell-Oconnor,Moran-Grimes,V010,Premium lipstick designed for everyday use.,Red,Cotton,,"premium,quality",8149,445,In Stock,188,1532012,41389,4804,2.1,3.9,257,2024-08-20,Deepali
+P0390,Lipstick,Beauty,"Fowler, Taylor and Gilmore","Castillo, Robinson and Dixon",V008,Premium lipstick designed for everyday use.,Black,Wood,S,"premium,quality",3463,494,In Stock,267,924621,17522,1142,4.47,4.7,887,2025-05-10,Deepali
+P0391,Lipstick,Beauty,Morales-Mendoza,Archer-Vargas,V011,Premium lipstick designed for everyday use.,Black,,M,"premium,quality",7129,222,Low Stock,207,1475703,38530,3501,3.3,4.8,667,2026-02-28,Deepali
+P0392,Shampoo,Beauty,Morris LLC,Davis-Nelson,V010,Premium shampoo designed for everyday use.,Brown,Leather,XL,"premium,quality",1893,135,Out of Stock,73,138189,30608,662,1.89,4.5,920,2025-03-30,Deepali
+P0393,Serum,Beauty,Wright-Thomas,Chen-Rice,V012,Premium serum designed for everyday use.,Blue,,,"premium,quality",4241,258,Low Stock,19,80579,49314,3138,1.38,2.9,546,2024-12-24,Deepali
+P0394,Lipstick,Beauty,"Garza, Olson and Austin",Macias Ltd,V014,,,,M,,9955,54,Low Stock,266,2648030,26974,73,5.24,4.3,915,2024-11-21,Deepali
+P0395,Moisturizer,Beauty,"Lee, Washington and Marshall","Palmer, Dorsey and Douglas",V011,Premium moisturizer designed for everyday use.,Brown,,S,"premium,quality",479,111,Low Stock,236,113044,23371,1239,6.04,4.7,562,2024-06-29,Deepali
+P0396,Moisturizer,Beauty,Wagner LLC,Johnson LLC,V008,,,,M,,9044,124,In Stock,144,1302336,44246,2197,2.26,2.8,95,2025-05-25,Deepali
+P0397,Shampoo,Beauty,Thomas and Sons,"Branch, Orozco and Eaton",V011,Premium shampoo designed for everyday use.,Red,,S,"premium,quality",6633,97,In Stock,251,1664883,38335,4280,0.85,2.6,184,2025-06-17,Deepali
+P0398,Shampoo,Beauty,"Romero, Lynch and Dixon",Rodriguez and Sons,V014,Premium shampoo designed for everyday use.,Blue,,M,"premium,quality",4918,464,Low Stock,74,363932,8528,4187,1.53,3.3,281,2025-03-01,Deepali
+P0399,Moisturizer,Beauty,Mcbride-Rice,"Summers, Johnson and Mata",V013,Premium moisturizer designed for everyday use.,Brown,Steel,M,"premium,quality",1202,359,Low Stock,254,305308,23272,2377,2.17,3,270,2024-12-14,Deepali
+P0400,Shampoo,Beauty,Perez-Harris,Bennett Ltd,V007,,,,M,,7210,65,Out of Stock,239,1723190,15080,1237,7.68,2.9,379,2025-05-26,Deepali
+P0401,Face Wash,Beauty,"Henderson, Mcdonald and Clark","Roy, Mendez and Ruiz",V001,Premium face wash designed for everyday use.,Brown,,XL,"premium,quality",9822,157,In Stock,284,2789448,18291,2020,4.07,2.8,208,2024-09-02,Deepali
+P0402,Shampoo,Beauty,"Coleman, Sanchez and Gutierrez",Elliott Group,V018,Premium shampoo designed for everyday use.,Brown,,XL,"premium,quality",526,28,In Stock,223,117298,42570,2203,4.24,2.7,148,2026-02-20,Deepali
+P0403,Moisturizer,Beauty,"Williams, Andersen and Tucker",Harper and Sons,V011,,,,XL,,2083,372,Low Stock,114,237462,34550,597,1.9,3.7,355,2025-11-17,Deepali
+P0404,Lipstick,Beauty,Hendrix and Sons,Robinson-Hoover,V002,Premium lipstick designed for everyday use.,Blue,Wood,S,"premium,quality",3794,351,Out of Stock,249,944706,36608,1566,2.3,3.4,637,2026-02-04,Deepali
+P0405,Serum,Beauty,Mendoza LLC,Smith-Hoffman,V010,Premium serum designed for everyday use.,Brown,,M,"premium,quality",9322,245,In Stock,115,1072030,25616,476,7.05,4.7,175,2026-02-19,Deepali
+P0406,Moisturizer,Beauty,Hawkins PLC,Macias LLC,V016,,,,M,,4060,336,In Stock,25,101500,41529,2603,5.58,4.8,232,2024-06-15,Deepali
+P0407,Face Wash,Beauty,"Griffin, Powell and Harris",Hayes-Garcia,V013,Premium face wash designed for everyday use.,Brown,,M,"premium,quality",9224,265,Out of Stock,267,2462808,4988,4854,4.79,2.5,555,2025-09-21,Deepali
+P0408,Face Wash,Beauty,Robinson Inc,Castro-King,V002,Premium face wash designed for everyday use.,Blue,Cotton,M,"premium,quality",6399,461,In Stock,12,76788,17932,2425,2.18,4.9,469,2026-01-25,Deepali
+P0409,Serum,Beauty,Young PLC,Brady Ltd,V017,Premium serum designed for everyday use.,White,Wood,L,"premium,quality",2947,134,Out of Stock,282,831054,20125,587,7.93,4.7,484,2025-05-29,Deepali
+P0410,Face Wash,Beauty,Woodard Inc,Melton-Hart,V020,,,,S,,1451,234,Out of Stock,180,261180,19074,2835,7.93,2.9,232,2026-04-01,Deepali
+P0411,Lipstick,Beauty,Wright-Jones,"Phillips, Frost and Thompson",V018,Premium lipstick designed for everyday use.,Red,,XL,"premium,quality",8002,120,Out of Stock,233,1864466,26931,3057,4.3,3.3,113,2024-05-30,Deepali
+P0412,Shampoo,Beauty,Gilbert-Edwards,Anderson-Johnson,V003,,,,M,,443,180,In Stock,222,98346,24503,4215,1.66,4.6,225,2025-10-01,Deepali
+P0413,Shampoo,Beauty,Rogers-Sanchez,Zuniga-Sloan,V006,Premium shampoo designed for everyday use.,Blue,,L,"premium,quality",3765,290,Out of Stock,11,41415,8051,4176,3.8,2.5,799,2025-02-26,Deepali
+P0414,Moisturizer,Beauty,Underwood LLC,"Henderson, Schmitt and Rowe",V009,,,,L,,3271,176,Out of Stock,177,578967,49404,4750,1.08,4.8,816,2025-11-27,Deepali
+P0415,Serum,Beauty,"Ford, Martinez and Marquez","Thompson, Chaney and Williamson",V007,Premium serum designed for everyday use.,Black,,,"premium,quality",6844,43,Low Stock,276,1888944,40266,4480,0.9,4.9,325,2026-01-08,Deepali
+P0416,Shampoo,Beauty,Stein-Smith,"Ryan, Jones and Lopez",V020,,,,XL,,3228,451,Low Stock,238,768264,11026,1395,2.98,3.5,992,2025-08-15,Deepali
+P0417,Shampoo,Beauty,"Raymond, Adams and Sanchez",Freeman-Ward,V014,Premium shampoo designed for everyday use.,Blue,,,"premium,quality",3705,455,In Stock,46,170430,2996,2495,3.91,4,115,2024-11-28,Deepali
+P0418,Serum,Beauty,Montgomery-Short,Barnes-Esparza,V005,Premium serum designed for everyday use.,Blue,,XL,"premium,quality",8194,427,Out of Stock,51,417894,13862,2314,3.43,2.8,720,2024-12-28,Deepali
+P0419,Serum,Beauty,"Thomas, Bryant and Jensen",Allen-Bonilla,V012,Premium serum designed for everyday use.,Red,,S,"premium,quality",6095,126,In Stock,147,895965,44586,693,0.8,4.6,220,2024-06-28,Deepali
+P0420,Face Wash,Beauty,Williams Inc,"Wheeler, Terrell and Harmon",V011,Premium face wash designed for everyday use.,Blue,,L,"premium,quality",9898,28,Out of Stock,141,1395618,40043,3146,1.78,4.5,884,2025-11-07,Deepali
+P0421,Moisturizer,Beauty,Garcia-Wright,Young Ltd,V006,Premium moisturizer designed for everyday use.,White,Steel,M,"premium,quality",2706,469,Out of Stock,191,516846,38769,74,6.74,2.8,145,2024-06-23,Deepali
+P0422,Serum,Beauty,Bean PLC,"Lewis, Bruce and Padilla",V009,,,,L,,7407,82,In Stock,186,1377702,35470,4490,2.65,2.6,805,2026-02-18,Deepali
+P0423,Moisturizer,Beauty,"Conner, Baker and Hawkins",Brown Ltd,V011,Premium moisturizer designed for everyday use.,Brown,,,"premium,quality",3843,5,Low Stock,81,311283,42274,1240,5.15,3.4,189,2026-03-05,Deepali
+P0424,Lipstick,Beauty,"Molina, Campbell and Oliver",Green-Miller,V003,,,,M,,6816,38,In Stock,122,831552,32400,1196,2.23,2.6,643,2024-11-25,Deepali
+P0425,Serum,Beauty,"Miller, Rodriguez and Choi",Huff Inc,V011,,,,,,983,167,In Stock,113,111079,14200,4086,5.35,4.1,200,2026-03-17,Deepali
+P0426,Football,Sports,"Joseph, Escobar and Adams","Johnson, Mitchell and Hernandez",V011,,,,XL,,6972,298,Out of Stock,152,1059744,24566,2694,2.84,5,615,2025-12-04,Deepali
+P0427,Cricket Bat,Sports,Brown Group,Smith-Gomez,V019,Premium cricket bat designed for everyday use.,Brown,Cotton,M,"premium,quality",3350,67,In Stock,297,994950,9309,1630,5.26,3.5,23,2024-06-09,Deepali
+P0428,Cricket Bat,Sports,"Wise, Elliott and Cruz","Christian, Thompson and Vincent",V013,Premium cricket bat designed for everyday use.,Red,,M,"premium,quality",2182,268,In Stock,90,196380,1392,2303,7.54,3.5,519,2024-11-20,Deepali
+P0429,Cricket Bat,Sports,"Ramirez, Briggs and Pacheco",Foster-Burton,V019,,,,,,5449,148,In Stock,261,1422189,26977,3005,4.9,4.7,424,2024-10-29,Deepali
+P0430,Yoga Mat,Sports,Edwards-Black,Gray Group,V014,Premium yoga mat designed for everyday use.,Black,Wood,L,"premium,quality",4086,76,Low Stock,199,813114,9788,3902,3.28,3.8,530,2024-10-23,Deepali
+P0431,Yoga Mat,Sports,Patterson-Alvarez,"Lewis, Charles and Tate",V020,,,,,,1538,396,In Stock,99,152262,17095,3093,4.04,4.9,554,2024-12-14,Deepali
+P0432,Resistance Band,Sports,Hawkins LLC,Petersen-Rivera,V005,Premium resistance band designed for everyday use.,Red,Cotton,S,"premium,quality",5782,435,Low Stock,137,792134,43887,3061,4.62,3.7,583,2025-12-14,Deepali
+P0433,Yoga Mat,Sports,Smith-Johnson,Owens and Sons,V009,Premium yoga mat designed for everyday use.,Red,Wood,L,"premium,quality",5890,36,In Stock,108,636120,5819,206,7.01,3.9,762,2024-06-19,Deepali
+P0434,Yoga Mat,Sports,Mcdaniel-Ortega,Adams Ltd,V019,Premium yoga mat designed for everyday use.,Red,,S,"premium,quality",9773,486,Low Stock,96,938208,10217,3466,3.13,2.6,838,2024-08-28,Deepali
+P0435,Cricket Bat,Sports,Black and Sons,"Hanson, Sanchez and Moore",V019,Premium cricket bat designed for everyday use.,Blue,Cotton,M,"premium,quality",3434,486,In Stock,55,188870,15537,1093,4.38,3.1,509,2025-02-19,Deepali
+P0436,Football,Sports,Tran-Gonzalez,Robinson-Brown,V006,Premium football designed for everyday use.,Blue,,,"premium,quality",4137,273,In Stock,7,28959,21207,4757,5.22,4.7,414,2025-12-08,Deepali
+P0437,Football,Sports,Durham Group,Mitchell-Kelley,V016,,,,L,,8371,80,Low Stock,279,2335509,39749,4496,0.51,3.5,20,2025-12-23,Deepali
+P0438,Dumbbell,Sports,"Fuller, Richardson and Griffin",Villegas-Bryant,V005,Premium dumbbell designed for everyday use.,Red,Steel,L,"premium,quality",388,433,Low Stock,242,93896,49779,3785,6.62,4.6,515,2024-07-19,Deepali
+P0439,Football,Sports,"Chapman, Nelson and Steele",Mercado-Jones,V019,,,,S,,5526,10,Low Stock,72,397872,11265,4615,6.3,5,910,2024-09-28,Deepali
+P0440,Resistance Band,Sports,Moore Inc,"Allen, Jacobson and Delgado",V013,,,,L,,2017,235,Low Stock,120,242040,7454,3946,1.96,3.5,460,2025-03-02,Deepali
+P0441,Resistance Band,Sports,"Hall, Nelson and Smith","Johnson, Trevino and Kim",V002,,,,S,,7590,136,In Stock,51,387090,24865,3259,4.62,3.2,861,2025-11-12,Deepali
+P0442,Dumbbell,Sports,Davis LLC,Rogers LLC,V011,Premium dumbbell designed for everyday use.,Red,Plastic,,"premium,quality",5273,274,Low Stock,236,1244428,46338,1678,5.27,3,189,2025-04-19,Deepali
+P0443,Dumbbell,Sports,Williamson and Sons,"Parker, Harmon and Potter",V011,,,,,,9717,26,Out of Stock,115,1117455,41978,804,2.79,4,100,2026-03-27,Deepali
+P0444,Cricket Bat,Sports,"Watson, Walters and Carlson",Anderson LLC,V001,Premium cricket bat designed for everyday use.,Brown,,L,"premium,quality",542,127,Out of Stock,79,42818,29131,391,6.24,3.2,487,2024-07-04,Deepali
+P0445,Football,Sports,Miranda Ltd,Lee-Krueger,V001,,,,XL,,9966,170,In Stock,291,2900106,23354,1170,6.58,4,894,2026-03-08,Deepali
+P0446,Cricket Bat,Sports,Jackson-Vasquez,Gomez LLC,V011,Premium cricket bat designed for everyday use.,Black,Cotton,XL,"premium,quality",8201,374,In Stock,167,1369567,15451,3818,6.95,4.2,99,2024-11-09,Deepali
+P0447,Dumbbell,Sports,Oliver-Pena,"Johnson, Holt and Wells",V008,Premium dumbbell designed for everyday use.,Red,,S,"premium,quality",3742,122,Out of Stock,184,688528,49010,4295,6.97,4.4,530,2024-10-28,Deepali
+P0448,Dumbbell,Sports,"Sanchez, Wong and Stewart",Mathews LLC,V003,,,,L,,1594,310,Out of Stock,252,401688,11994,434,6.28,3.9,479,2025-09-23,Deepali
+P0449,Resistance Band,Sports,Weiss Inc,Meyer LLC,V006,Premium resistance band designed for everyday use.,Red,,XL,"premium,quality",4039,98,Out of Stock,211,852229,21121,458,3.32,4.4,516,2024-11-27,Deepali
+P0450,Resistance Band,Sports,Duncan Ltd,Hayden Group,V003,Premium resistance band designed for everyday use.,Red,,XL,"premium,quality",6500,486,Low Stock,207,1345500,43579,2300,2.3,4.3,739,2025-06-09,Deepali
+P0451,Cricket Bat,Sports,Dean-Green,Mora LLC,V003,,,,S,,8332,449,In Stock,83,691556,35737,824,6.85,4.6,902,2025-01-15,Deepali
+P0452,Cricket Bat,Sports,Johnson-Russell,Salas PLC,V020,,,,M,,2811,9,Out of Stock,253,711183,31274,3922,1.89,3.6,201,2024-11-05,Deepali
+P0453,Cricket Bat,Sports,Wilson Group,"Graham, Hamilton and Howard",V015,Premium cricket bat designed for everyday use.,Red,,M,"premium,quality",5514,412,In Stock,77,424578,49289,1693,4.83,3.3,531,2024-08-17,Deepali
+P0454,Yoga Mat,Sports,Wiggins-Gibbs,Boyd Inc,V001,,,,M,,9419,299,Low Stock,69,649911,45307,3768,7.38,2.6,436,2025-12-30,Deepali
+P0455,Dumbbell,Sports,"Martinez, Brown and Nunez","Hall, Smith and Moreno",V017,Premium dumbbell designed for everyday use.,White,Plastic,XL,"premium,quality",8142,208,In Stock,73,594366,48265,3986,5.53,3.7,245,2026-02-18,Deepali
+P0456,Yoga Mat,Sports,"Shaw, Murray and Thompson",Long PLC,V006,Premium yoga mat designed for everyday use.,Black,Leather,S,"premium,quality",5984,364,Low Stock,8,47872,26044,1538,3.51,2.9,610,2025-04-24,Deepali
+P0457,Dumbbell,Sports,Chase-Thomas,Haas Group,V008,Premium dumbbell designed for everyday use.,White,Cotton,XL,"premium,quality",928,245,Out of Stock,258,239424,21385,1337,2.9,2.9,206,2024-10-31,Deepali
+P0458,Yoga Mat,Sports,Collins Inc,Walker Group,V013,Premium yoga mat designed for everyday use.,Blue,,S,"premium,quality",7216,389,In Stock,250,1804000,9648,2548,1.01,4.6,897,2025-12-12,Deepali
+P0459,Dumbbell,Sports,Robinson-Bailey,Lewis Group,V004,,,,,,4869,201,Low Stock,273,1329237,11019,4123,4.99,2.7,641,2026-04-04,Deepali
+P0460,Resistance Band,Sports,"Hart, Alvarado and Deleon","Guerrero, Poole and Turner",V010,Premium resistance band designed for everyday use.,Red,,L,"premium,quality",2749,345,Out of Stock,174,478326,23014,3121,7.79,4.8,768,2026-02-23,Deepali
+P0461,Resistance Band,Sports,"Fowler, Tucker and Graham",Lowery-Arnold,V012,Premium resistance band designed for everyday use.,Red,,XL,"premium,quality",9982,54,In Stock,114,1137948,18596,3501,1.18,4.3,559,2025-03-17,Deepali
+P0462,Dumbbell,Sports,"Grant, Santiago and Calderon",Neal-Alexander,V020,,,,L,,6137,403,In Stock,113,693481,27480,797,6.9,2.6,517,2025-07-20,Deepali
+P0463,Cricket Bat,Sports,Ortiz-Daniels,"Bauer, Dixon and Johnson",V004,Premium cricket bat designed for everyday use.,Blue,,M,"premium,quality",2649,482,Low Stock,256,678144,22872,2257,2.32,4.1,502,2024-11-25,Deepali
+P0464,Football,Sports,Gordon and Sons,"Brown, Cisneros and Le",V018,Premium football designed for everyday use.,Blue,,M,"premium,quality",2303,304,Out of Stock,47,108241,32629,2075,5.8,2.5,299,2025-09-30,Deepali
+P0465,Yoga Mat,Sports,"Jacobs, Ramirez and Weaver",Krause-Zimmerman,V018,,,,,,8777,239,Low Stock,59,517843,24128,3701,5.98,4.2,271,2024-12-06,Deepali
+P0466,Cricket Bat,Sports,"Riley, Christensen and Medina","Hill, Jones and Powell",V018,Premium cricket bat designed for everyday use.,Black,,S,"premium,quality",7421,492,Low Stock,162,1202202,34632,580,6.82,2.7,313,2024-07-13,Deepali
+P0467,Dumbbell,Sports,Weiss and Sons,Krause Ltd,V010,Premium dumbbell designed for everyday use.,Blue,,M,"premium,quality",5347,425,In Stock,204,1090788,29756,2994,3.36,3.6,696,2024-09-30,Deepali
+P0468,Resistance Band,Sports,Brown Inc,Webb and Sons,V006,Premium resistance band designed for everyday use.,White,,,"premium,quality",9854,21,Low Stock,15,147810,2689,2576,1.19,4.4,947,2025-11-05,Deepali
+P0469,Resistance Band,Sports,"Burns, Duncan and Owen",Duke-Reilly,V005,Premium resistance band designed for everyday use.,Blue,Steel,S,"premium,quality",2807,102,Out of Stock,246,690522,49234,540,6.28,4.8,616,2024-06-07,Deepali
+P0470,Football,Sports,Villanueva-Chen,"Golden, Price and Adams",V002,Premium football designed for everyday use.,Red,,,"premium,quality",3148,205,Low Stock,169,532012,49622,3924,7.51,2.9,75,2026-03-01,Deepali
+P0471,Football,Sports,Bowen PLC,"Sandoval, Bryant and Gutierrez",V008,,,,M,,6846,23,In Stock,135,924210,42871,4313,2.72,3.5,383,2024-07-30,Deepali
+P0472,Cricket Bat,Sports,"Osborne, Fernandez and Adams",Vang and Sons,V016,Premium cricket bat designed for everyday use.,Black,,,"premium,quality",4310,259,Low Stock,235,1012850,21399,991,3.61,3.3,194,2024-09-26,Deepali
+P0473,Football,Sports,"Jackson, Smith and Richardson","Taylor, Rodriguez and Cohen",V017,Premium football designed for everyday use.,Black,,S,"premium,quality",7962,232,In Stock,271,2157702,48035,637,6.12,4.5,605,2025-11-13,Deepali
+P0474,Dumbbell,Sports,"Garrison, Rodriguez and Gallagher",Dorsey-Gonzales,V006,,,,,,9767,56,Out of Stock,255,2490585,37523,2513,4.16,3.3,265,2024-06-30,Deepali
+P0475,Dumbbell,Sports,"Martin, Williams and Rogers",Weaver-Wilson,V019,Premium dumbbell designed for everyday use.,Black,,L,"premium,quality",3828,374,Low Stock,24,91872,1645,3314,1.72,3.9,900,2025-11-04,Deepali
+P0476,Football,Sports,"Roberts, Watson and Molina","Thompson, Gonzales and Leon",V004,,,,M,,9942,437,Out of Stock,11,109362,6287,2662,1.49,3.7,548,2026-01-09,Deepali
+P0477,Yoga Mat,Sports,Goodwin Ltd,Guerra-Sparks,V013,Premium yoga mat designed for everyday use.,Blue,,L,"premium,quality",9901,394,In Stock,262,2594062,36341,1074,5.08,4.1,740,2025-04-21,Deepali
+P0478,Yoga Mat,Sports,Marshall-Armstrong,Jones-Jackson,V016,,,,L,,5621,267,Low Stock,182,1023022,7865,1735,6.26,2.9,410,2024-08-20,Deepali
+P0479,Cricket Bat,Sports,"Barnett, Williams and Foster",Mason-Gibbs,V018,,,,XL,,6289,250,Out of Stock,73,459097,6919,4459,7.72,4.9,602,2025-05-14,Deepali
+P0480,Cricket Bat,Sports,Christensen-Barnes,Thomas-Young,V018,,,,S,,5864,110,Out of Stock,278,1630192,41835,1477,7.08,3.8,69,2025-08-26,Deepali
+P0481,Cricket Bat,Sports,Allen-Morales,"Wallace, Griffin and Brown",V009,Premium cricket bat designed for everyday use.,Red,,,"premium,quality",1025,449,In Stock,168,172200,23592,236,2.62,3.9,438,2025-10-24,Deepali
+P0482,Cricket Bat,Sports,"Gardner, Lopez and Gray","Rogers, Floyd and Harrison",V001,Premium cricket bat designed for everyday use.,White,Leather,XL,"premium,quality",9292,190,In Stock,17,157964,16667,250,1.61,3.1,744,2024-12-22,Deepali
+P0483,Cricket Bat,Sports,Lindsey-Silva,"Young, Hayes and Jennings",V012,Premium cricket bat designed for everyday use.,Black,,M,"premium,quality",9631,171,Low Stock,192,1849152,19047,2024,0.93,4.5,828,2025-06-21,Deepali
+P0484,Yoga Mat,Sports,Snyder and Sons,"Butler, Estrada and Phillips",V014,Premium yoga mat designed for everyday use.,Brown,,S,"premium,quality",3238,29,In Stock,216,699408,15559,1332,2.13,4.6,161,2024-10-09,Deepali
+P0485,Cricket Bat,Sports,Dunn Ltd,Hull-Perkins,V011,,,,L,,2190,71,In Stock,135,295650,35112,3259,3.98,4.9,543,2025-07-09,Deepali
+P0486,Yoga Mat,Sports,Reed-Reed,"Zamora, Martin and Shaffer",V009,,,,L,,8437,80,Out of Stock,169,1425853,44871,2782,3.95,2.8,147,2025-12-27,Deepali
+P0487,Football,Sports,Collins-Allen,James Ltd,V012,Premium football designed for everyday use.,Red,Steel,L,"premium,quality",715,483,Low Stock,65,46475,18926,881,0.86,3.5,435,2025-05-08,Deepali
+P0488,Yoga Mat,Sports,"Winters, Velasquez and Green",Greene Ltd,V019,Premium yoga mat designed for everyday use.,Black,Steel,,"premium,quality",7218,412,Low Stock,118,851724,40050,2800,3.37,3.5,966,2024-08-17,Deepali
+P0489,Dumbbell,Sports,King LLC,"Wilkerson, Hurst and Spencer",V003,Premium dumbbell designed for everyday use.,White,,L,"premium,quality",9277,339,In Stock,299,2773823,16800,4805,1.55,2.9,697,2025-04-18,Deepali
+P0490,Cricket Bat,Sports,Harris PLC,Gallegos-Allen,V003,,,,,,9733,156,In Stock,227,2209391,28531,1252,1.46,4.8,134,2025-08-13,Deepali
+P0491,Football,Sports,"Davis, Cooper and Jones","James, Hughes and Bass",V015,,,,XL,,4259,185,In Stock,43,183137,19301,632,1.78,4.9,296,2024-09-16,Deepali
+P0492,Yoga Mat,Sports,Evans-Fisher,Murphy LLC,V011,,,,L,,4239,2,In Stock,211,894429,48221,141,3.1,3.1,433,2025-02-11,Deepali
+P0493,Resistance Band,Sports,Woods-Martinez,"Gonzales, Park and Arnold",V013,,,,XL,,2058,244,In Stock,228,469224,20665,2600,2.64,4.3,240,2026-03-11,Deepali
+P0494,Cricket Bat,Sports,Johnson-Willis,"Fields, Frank and Harmon",V019,,,,M,,2482,491,Out of Stock,279,692478,17416,4437,2.92,3.7,88,2025-09-23,Deepali
+P0495,Yoga Mat,Sports,Shaw LLC,Perkins-Benson,V006,,,,,,1108,284,In Stock,105,116340,11578,579,6.73,3,800,2024-10-20,Deepali
+P0496,Football,Sports,Willis PLC,Medina Inc,V007,Premium football designed for everyday use.,Black,,XL,"premium,quality",9310,335,In Stock,220,2048200,38651,2750,3.09,3,311,2026-05-25,Deepali
+P0497,Resistance Band,Sports,Williams PLC,Cox-Davila,V018,Premium resistance band designed for everyday use.,White,Cotton,,"premium,quality",5345,0,In Stock,77,411565,19957,669,2.94,4.4,790,2025-12-27,Deepali
+P0498,Football,Sports,Molina and Sons,Walsh and Sons,V008,Premium football designed for everyday use.,Red,Wood,L,"premium,quality",3059,273,Out of Stock,252,770868,38904,2954,3.6,4.6,939,2025-06-20,Deepali
+P0499,Dumbbell,Sports,Dillon Group,"Brown, Robinson and Chapman",V016,Premium dumbbell designed for everyday use.,Brown,,XL,"premium,quality",5444,185,Out of Stock,145,789380,15311,4113,1.02,3.6,192,2025-05-18,Deepali
+P0500,Dumbbell,Sports,"Cameron, James and Roberts","Mcguire, Mathis and Delgado",V010,Premium dumbbell designed for everyday use.,Red,Leather,XL,"premium,quality",7872,44,Low Stock,184,1448448,42579,3317,2.21,2.9,188,2026-03-24,Deepali
