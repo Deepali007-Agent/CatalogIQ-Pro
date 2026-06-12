@@ -72,7 +72,7 @@ st.title("🚀 CatalogIQ Pro")
 
 st.markdown(
     """
-    ### Executive Retail Operations Command Center
+    ### Catalog Intelligence & Executive Decision Center
 
     AI-Powered Revenue Risk, Vendor Intelligence & Recovery Decision Engine
     """
@@ -292,23 +292,57 @@ def vendor_intelligence_agent(df):
     return vendor_df
 
 def division_performance_agent(df):
+    """
+    Groups catalog risk into clean retail business divisions instead of raw
+    category/subcategory combinations like 'Shoes / Jackets'.
+
+    Output is used by Vendor Intelligence and Executive Decision layers.
+    """
     division_rows = []
     temp_df = prepare_revenue_columns(df)
 
-    if "subcategory" not in temp_df.columns:
-        temp_df["subcategory"] = "Unknown"
-
     if "category" not in temp_df.columns:
         temp_df["category"] = "Unknown"
+
+    if "subcategory" not in temp_df.columns:
+        temp_df["subcategory"] = "Unknown"
 
     for col in ["description", "tags", "color", "material", "size"]:
         if col not in temp_df.columns:
             temp_df[col] = ""
 
-    temp_df["Division"] = (
-        temp_df["subcategory"].astype(str).str.strip()
-        + " / "
-        + temp_df["category"].astype(str).str.strip()
+    def map_business_division(category, subcategory):
+        text = f"{category} {subcategory}".lower()
+
+        if any(x in text for x in ["shirt", "t-shirt", "tshirt", "jean", "denim", "trouser", "pant"]):
+            return "Mens Apparel"
+        elif any(x in text for x in ["dress", "kurta", "saree", "women", "womens", "blouse", "skirt"]):
+            return "Womens Apparel"
+        elif any(x in text for x in ["shoe", "sneaker", "sandal", "boot", "footwear"]):
+            return "Footwear"
+        elif any(x in text for x in ["jacket", "coat", "hoodie", "sweater", "outerwear"]):
+            return "Outerwear"
+        elif any(x in text for x in ["bag", "wallet", "belt", "watch", "accessor", "jewelry", "jewellery"]):
+            return "Accessories"
+        elif any(x in text for x in ["beauty", "skin", "cosmetic", "makeup", "hair"]):
+            return "Beauty"
+        elif any(x in text for x in ["electronic", "mobile", "laptop", "headphone", "camera", "device"]):
+            return "Electronics"
+        elif any(x in text for x in ["home", "furniture", "kitchen", "decor", "bedding"]):
+            return "Home"
+        elif any(x in text for x in ["sport", "fitness", "outdoor", "active"]):
+            return "Sports"
+        elif any(x in text for x in ["grocery", "food", "beverage", "snack"]):
+            return "Grocery"
+        else:
+            return "Other"
+
+    temp_df["Division"] = temp_df.apply(
+        lambda row: map_business_division(
+            row.get("category", "Unknown"),
+            row.get("subcategory", "Unknown")
+        ),
+        axis=1
     )
 
     temp_df["content_defect"] = (
@@ -332,7 +366,7 @@ def division_performance_agent(df):
 
         if defect_rate >= 20:
             risk_level = "HIGH"
-            recommended_action = "Immediate remediation"
+            recommended_action = "Launch division-level catalog remediation"
         elif defect_rate >= 10:
             risk_level = "MEDIUM"
             recommended_action = "Prioritize attribute and PDP cleanup"
@@ -368,6 +402,7 @@ def division_performance_agent(df):
     ).drop(columns=["risk_sort"])
 
     return division_df
+
 
 def customer_experience_agent_v2(df):
     temp_df = prepare_revenue_columns(df)
@@ -1026,7 +1061,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 ])
 
 with tab1:
-    st.subheader("🚀 Executive Retail Operations Command Center")
+    st.subheader("🚀 Executive Decision Summary")
 
     severity = executive_summary["business_severity"]
 
@@ -1036,10 +1071,6 @@ with tab1:
         st.warning(f"⚠️ {executive_summary['decision_mode']}")
     else:
         st.success(f"✅ {executive_summary['decision_mode']}")
-
-    st.markdown("### Executive Exposure")
-
-    k1, k2, k3, k4 = st.columns(4)
 
     recovery_rate = (
         executive_summary["expected_recovery"] / executive_summary["revenue_risk"] * 100
@@ -1051,35 +1082,6 @@ with tab1:
         if "Risk Level" in vendor.columns else pd.DataFrame()
     )
 
-    k1.metric("Revenue At Risk", f"${executive_summary['revenue_risk']:,.0f}")
-    k2.metric("Expected Recovery", f"${executive_summary['expected_recovery']:,.0f}")
-    k3.metric("High-Risk Vendors", len(high_risk_vendors))
-    k4.metric("Recovery Rate", f"{recovery_rate:.0f}%")
-
-    st.divider()
-
-    st.markdown("### Top Leadership Decisions")
-
-    if decision_queue_df.empty:
-        st.success("No critical leadership decisions required at this time.")
-    else:
-        top_decisions = decision_queue_df.head(3).copy()
-
-        for i, (_, row) in enumerate(top_decisions.iterrows(), start=1):
-            st.markdown(
-                f"""
-                **Decision {i}: {row['Recommended Decision']}**  
-                Recovery Potential: **${row['Recovery Potential']:,.0f}**  
-                Accountable Owner: **{row['Owner']}**
-                """
-            )
-
-    st.divider()
-
-    st.markdown("### Financial Recovery Plan")
-
-    c1, c2, c3 = st.columns(3)
-
     total_top_recovery = (
         min(
             decision_queue_df.head(3)["Recovery Potential"].sum(),
@@ -1088,102 +1090,265 @@ with tab1:
         if not decision_queue_df.empty else 0
     )
 
-    c1.metric("Current Exposure", f"${executive_summary['revenue_risk']:,.0f}")
-    c2.metric("Approved Recovery Plan", f"${total_top_recovery:,.0f}")
-    c3.metric("Primary Owner", executive_summary["primary_owner"])
+    # ==================================================
+    # 1. EXECUTIVE EXPOSURE
+    # ==================================================
+    k1, k2, k3, k4 = st.columns(4)
 
-    st.divider()
+    k1.metric("Revenue At Risk", f"${executive_summary['revenue_risk']:,.0f}")
+    k2.metric("Expected Recovery", f"${executive_summary['expected_recovery']:,.0f}")
+    k3.metric("High-Risk Vendors", len(high_risk_vendors))
+    k4.metric("Recovery Rate", f"{recovery_rate:.0f}%")
 
-    st.markdown("### Executive Brief")
+    # ==================================================
+    # 2. DECISION REQUIRED TODAY
+    # ==================================================
+    st.markdown("### ✅ Leadership Decision Required")
 
     if decision_queue_df.empty:
-        st.info(
-            "Catalog operations are currently stable. Continue monitoring revenue exposure, vendor performance, and customer experience signals."
-        )
+        st.success("No immediate leadership intervention required. Continue monitoring catalog, vendor, and customer signals.")
     else:
         top_action = decision_queue_df.iloc[0]["Recommended Decision"]
-
-        st.info(
-            f"""
-Revenue exposure currently stands at **${executive_summary['revenue_risk']:,.0f}**.
-
-The highest-priority recovery action is **{top_action}**.
-
-The top 3 recovery programs represent **${total_top_recovery:,.0f}** in expected monthly recovery.
-
-Primary accountability sits with **{executive_summary['primary_owner']}**.
-
-Leadership should approve the recovery plan and review progress in the next operating cadence.
-"""
-        )
-
-    st.divider()
-
-    st.markdown("### Approval Recommendation")
-
-    if decision_queue_df.empty:
-        st.success("Maintain current operating rhythm. No immediate recovery program required.")
-    else:
-        action_lines = [
-            f"{i+1}. {row['Recommended Decision']}"
-            for i, (_, row) in enumerate(decision_queue_df.head(3).iterrows())
-        ]
+        top_owner = decision_queue_df.iloc[0]["Owner"]
+        top_recovery = decision_queue_df.iloc[0]["Recovery Potential"]
 
         st.success(
             f"""
-**Approve this operating plan:**
-
-{chr(10).join(action_lines)}
-
-**Expected Monthly Recovery:** ${total_top_recovery:,.0f}
-
-**Primary Accountable Owner:** {executive_summary['primary_owner']}
+**Approve:** {top_action}  
+**Expected Recovery:** ${top_recovery:,.0f}  
+**Owner:** {top_owner}  
+**Review Cadence:** 30 days
 """
         )
 
-        st.markdown("---")
+    # ==================================================
+    # 3. EXECUTIVE ACTION BOARD
+    # ==================================================
+    st.markdown("### 🎯 Leadership Action Queue")
 
-st.subheader("🧭 Executive Operating Model")
+    if decision_queue_df.empty:
+        st.info("No high-priority recovery actions available.")
+    else:
+        action_board = decision_queue_df.head(3).copy()
 
-st.caption(
-    "How CatalogIQ Pro converts catalog, vendor, customer, and revenue signals into leadership decisions."
-)
+        action_board = action_board.rename(columns={
+            "Recommended Decision": "Action",
+            "Recovery Potential": "Recovery",
+            "Owner": "Owner"
+        })
 
-operating_model = pd.DataFrame({
-    "Stage": [
-        "1. Identify Risk",
-        "2. Quantify Impact",
-        "3. Assign Ownership",
-        "4. Measure Customer Risk",
-        "5. Prioritize Recovery",
-        "6. Recommend Action",
-        "7. Drive Leadership Decision"
-    ],
-    "Intelligence Layer": [
-        "Catalog Health Agent",
-        "Revenue Impact Agent",
-        "Vendor Intelligence Agent",
-        "Customer Experience Agent",
-        "Revenue Prioritization Engine",
-        "Executive Decision Agent V3",
-        "Executive Agent V2"
-    ],
-    "Business Outcome": [
-        "Detect catalog defects and product readiness gaps",
-        "Measure revenue exposure and recovery opportunity",
-        "Identify accountable vendors and operational owners",
-        "Quantify CX degradation, returns, and trust impact",
-        "Rank the highest-value recovery actions",
-        "Generate decision-ready recovery recommendations",
-        "Convert insights into executive action plan"
-    ]
-})
+        action_board["Priority"] = range(1, len(action_board) + 1)
 
-st.dataframe(
-    operating_model,
-    use_container_width=True,
-    hide_index=True
-)
+        action_board = action_board[[
+            "Priority",
+            "Action",
+            "Owner",
+            "Recovery"
+        ]]
+
+        action_board["Recovery"] = action_board["Recovery"].apply(
+            lambda x: f"${x:,.0f}"
+        )
+
+        st.dataframe(
+            action_board,
+            use_container_width=True,
+            hide_index=True
+        )
+
+    # ==================================================
+    # 4. AUDIT PRIORITIZATION + CORRECTIONS
+    # ==================================================
+    st.markdown("### 🧾 Catalog Audit Queue & Recommended Corrections")
+
+    audit_rows = []
+
+    for _, row in df.iterrows():
+        product_name = row.get("product_name", "Unknown Product")
+        category = row.get("category", "Unknown")
+        vendor_name = row.get("vendor_name", row.get("vendor", "Unknown Vendor"))
+        price = row.get("price", 0)
+
+        if "description" in df.columns and pd.isna(row.get("description")):
+            audit_rows.append({
+                "Audit Finding": "Missing Description",
+                "Recommended Correction": "Generate customer-facing product description",
+                "Priority": "High",
+                "Owner": "Catalog Ops",
+                "Impact Proxy": price
+            })
+
+        if "tags" in df.columns and pd.isna(row.get("tags")):
+            audit_rows.append({
+                "Audit Finding": "Missing Search Tags",
+                "Recommended Correction": "Apply category-relevant search tags",
+                "Priority": "Medium",
+                "Owner": "Catalog Ops",
+                "Impact Proxy": price
+            })
+
+        if "color" in df.columns and pd.isna(row.get("color")):
+            audit_rows.append({
+                "Audit Finding": "Missing Color Attribute",
+                "Recommended Correction": "Standardize color attribute mapping",
+                "Priority": "Medium",
+                "Owner": "Catalog Ops",
+                "Impact Proxy": price
+            })
+
+        if "return_rate" in df.columns and row.get("return_rate", 0) > 8:
+            audit_rows.append({
+                "Audit Finding": "High Return Rate",
+                "Recommended Correction": "Review content accuracy, sizing, imagery, and customer expectations",
+                "Priority": "High",
+                "Owner": "Customer Experience / Catalog Quality",
+                "Impact Proxy": price
+            })
+
+        if "sla_status" in df.columns and str(row.get("sla_status")).lower() in ["delayed", "missed", "breached"]:
+            audit_rows.append({
+                "Audit Finding": "Vendor SLA Risk",
+                "Recommended Correction": "Escalate vendor performance review",
+                "Priority": "High",
+                "Owner": "Vendor Operations",
+                "Impact Proxy": price
+            })
+
+    if audit_rows:
+        audit_df = pd.DataFrame(audit_rows)
+
+        audit_summary = (
+            audit_df.groupby(["Audit Finding", "Recommended Correction", "Priority", "Owner"])
+            .agg(
+                Affected_Products=("Audit Finding", "count"),
+                Impact_Proxy=("Impact Proxy", "sum")
+            )
+            .reset_index()
+            .sort_values(["Priority", "Impact_Proxy"], ascending=[True, False])
+            .head(5)
+        )
+
+        st.dataframe(
+            audit_summary,
+            use_container_width=True,
+            hide_index=True
+        )
+    else:
+        audit_df = pd.DataFrame()
+        st.success("No high-confidence catalog corrections detected from the current dataset.")
+
+    # ==================================================
+    # 5. ROOT CAUSE DISTRIBUTION
+    # ==================================================
+    st.markdown("### 🔍 Root Cause Distribution")
+
+    if audit_rows:
+        root_cause_map = {
+            "Missing Description": "Catalog Content Defect",
+            "Missing Search Tags": "Catalog Discoverability Defect",
+            "Missing Color Attribute": "Catalog Attribute Defect",
+            "High Return Rate": "Customer Experience Risk",
+            "Vendor SLA Risk": "Vendor Operations Risk"
+        }
+
+        audit_df["Root Cause"] = audit_df["Audit Finding"].map(root_cause_map).fillna("Other")
+
+        root_cause_df = (
+            audit_df.groupby("Root Cause")
+            .agg(
+                Issues=("Root Cause", "count"),
+                Impact_Proxy=("Impact Proxy", "sum")
+            )
+            .reset_index()
+            .sort_values("Impact_Proxy", ascending=False)
+        )
+
+        total_issues = root_cause_df["Issues"].sum()
+
+        root_cause_df["Share"] = (
+            root_cause_df["Issues"] / total_issues * 100
+        ).round(1).astype(str) + "%"
+
+        root_cause_df["Leadership Action"] = root_cause_df["Root Cause"].map({
+            "Customer Experience Risk": "Review high-return products and content accuracy",
+            "Catalog Content Defect": "Prioritize product description enrichment",
+            "Catalog Discoverability Defect": "Improve search tags and browse discoverability",
+            "Catalog Attribute Defect": "Fix missing structured attributes",
+            "Vendor Operations Risk": "Escalate vendor SLA governance"
+        }).fillna("Review operational root cause")
+
+        root_cause_df = root_cause_df[[
+            "Root Cause",
+            "Issues",
+            "Share",
+            "Leadership Action"
+        ]]
+
+        st.dataframe(
+            root_cause_df,
+            use_container_width=True,
+            hide_index=True
+        )
+    else:
+        st.info("Root cause distribution will appear once audit findings are detected.")
+
+    # ==================================================
+    # 6. LEADERSHIP KPI TRACKER
+    # ==================================================
+    st.markdown("### 📌 Leadership KPI Tracker")
+
+    missing_description_rate = (
+        df["description"].isna().mean() * 100
+        if "description" in df.columns else 0
+    )
+
+    missing_tags_rate = (
+        df["tags"].isna().mean() * 100
+        if "tags" in df.columns else 0
+    )
+
+    avg_return_rate = (
+        df["return_rate"].mean()
+        if "return_rate" in df.columns else 0
+    )
+
+    avg_catalog_health = (
+        catalog_scorecard["overall_score"]
+        if isinstance(catalog_scorecard, dict) and "overall_score" in catalog_scorecard else 0
+    )
+
+    kpi_tracker = pd.DataFrame({
+        "Metric": [
+            "Catalog Health Score",
+            "Missing Description Rate",
+            "Missing Search Tag Rate",
+            "Average Return Rate"
+        ],
+        "Current": [
+            f"{avg_catalog_health:.0f}%",
+            f"{missing_description_rate:.1f}%",
+            f"{missing_tags_rate:.1f}%",
+            f"{avg_return_rate:.1f}%"
+        ],
+        "Target": [
+            "95%+",
+            "<2%",
+            "<3%",
+            "<5%"
+        ],
+        "Leadership Action": [
+            "Maintain catalog quality operating rhythm",
+            "Prioritize description enrichment queue",
+            "Improve discoverability and search tagging",
+            "Review high-return products for content accuracy"
+        ]
+    })
+
+    st.dataframe(
+        kpi_tracker,
+        use_container_width=True,
+        hide_index=True
+    )
 
 with tab2:
     st.subheader("🏷️ Catalog Health Scorecard")
@@ -1392,7 +1557,7 @@ with tab3:
     )
 
     st.markdown("---")
-    st.markdown("### 🧭 Division Performance Analysis")
+    st.markdown("### 🧭 Business Division Performance Analysis")
 
     division_df = division_performance_agent(df)
 
@@ -1401,12 +1566,12 @@ with tab3:
     d1, d2, d3, d4 = st.columns(4)
 
     d1.metric(
-        "Total Division Exposure",
+        "Division Revenue Exposure",
         f"${division_df['Revenue Exposure'].sum():,.0f}"
     )
 
     d2.metric(
-        "High Risk Divisions",
+        "Divisions Requiring Action",
         len(high_risk_divisions)
     )
 
@@ -1418,7 +1583,7 @@ with tab3:
     top_division = division_df.iloc[0]["Division"] if not division_df.empty else "N/A"
 
     d4.metric(
-        "Top Risk Division",
+        "Highest Risk Division",
         top_division
     )
 
@@ -1429,16 +1594,18 @@ with tab3:
 
     st.warning(
         f"""
-        **Top Risk Division:** {top_div['Division']}  
-        **Revenue Exposure:** ${top_div['Revenue Exposure']:,.0f}  
-        **Products Impacted:** {top_div['Products Impacted']}  
-        **Defect Rate:** {top_div['Defect Rate']:.1f}%  
-        **Risk Level:** {top_div['Risk Level']}  
-        **Recovery Opportunity:** ${top_div['Recovery Opportunity']:,.0f}
+🚨 Highest operational risk currently sits within **{top_div['Division']}**.  
+
+**Revenue Exposure:** ${top_div['Revenue Exposure']:,.0f}  
+**Products Impacted:** {top_div['Products Impacted']}  
+**Defect Rate:** {top_div['Defect Rate']:.1f}%  
+**Recovery Opportunity:** ${top_div['Recovery Opportunity']:,.0f}  
+
+**Recommended Action:** Launch division-level catalog remediation and vendor recovery review.
         """
     )
 
-    st.markdown("### 📌 Division Risk Scorecard")
+    st.markdown("### 📌 Business Division Risk Scorecard")
 
     display_division_df = division_df.copy() 
 
@@ -1454,9 +1621,93 @@ with tab3:
         hide_index=True
     )
 
+with tab4:
+    st.subheader("😊 Customer Experience Command Center")
+
+    temp_df = prepare_revenue_columns(df)
+
+    if "return_rate" not in temp_df.columns:
+        temp_df["return_rate"] = 0
+    if "rating" not in temp_df.columns:
+        temp_df["rating"] = 5
+    if "review_count" not in temp_df.columns:
+        temp_df["review_count"] = 0
+
+    temp_df["return_rate"] = pd.to_numeric(temp_df["return_rate"], errors="coerce").fillna(0)
+    temp_df["rating"] = pd.to_numeric(temp_df["rating"], errors="coerce").fillna(5)
+    temp_df["review_count"] = pd.to_numeric(temp_df["review_count"], errors="coerce").fillna(0)
+
+    high_return_df = temp_df[temp_df["return_rate"] >= 10]
+    low_rating_df = temp_df[temp_df["rating"] < 4.0]
+    low_review_df = temp_df[temp_df["review_count"] < 25]
+
+    cx_exposure = (
+        high_return_df["revenue"].sum()
+        + low_rating_df["revenue"].sum()
+        + low_review_df["revenue"].sum()
+    )
+
+    total_revenue = temp_df["revenue"].sum()
+
+    customer_risk_score = (
+        min((cx_exposure / total_revenue) * 100, 100)
+        if total_revenue > 0 else 0
+    )
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric("High Return Products", len(high_return_df))
+    c2.metric("Low Rated Products", len(low_rating_df))
+    c3.metric("CX Revenue Exposure", f"${cx_exposure:,.0f}")
+    c4.metric("Customer Risk Score", f"{customer_risk_score:.1f}%")
+
+    st.markdown("### 🚨 Customer Risk Drivers")
+
+    cx_driver_df = pd.DataFrame([
+        {
+            "Customer Risk Driver": "High Return Rate",
+            "Products Impacted": len(high_return_df),
+            "Revenue Exposure": high_return_df["revenue"].sum(),
+            "Recommended Action": "Review content accuracy, sizing, imagery, and customer expectations"
+        },
+        {
+            "Customer Risk Driver": "Low Product Rating",
+            "Products Impacted": len(low_rating_df),
+            "Revenue Exposure": low_rating_df["revenue"].sum(),
+            "Recommended Action": "Audit low-rated SKUs and identify product trust issues"
+        },
+        {
+            "Customer Risk Driver": "Low Review Count",
+            "Products Impacted": len(low_review_df),
+            "Revenue Exposure": low_review_df["revenue"].sum(),
+            "Recommended Action": "Monitor weak customer feedback signals"
+        }
+    ])
+
+    cx_driver_df["Revenue Exposure"] = cx_driver_df["Revenue Exposure"].apply(
+        lambda x: f"${x:,.0f}"
+    )
+
+    st.dataframe(
+        cx_driver_df,
+        use_container_width=True,
+        hide_index=True
+    )
+
+    st.markdown("### ✅ Recommended CX Actions")
+
+    st.info(
+        """
+1. Audit high-return SKUs for inaccurate descriptions, poor imagery, and sizing gaps.  
+2. Review low-rated products for customer trust issues.  
+3. Improve PDP content for products with weak customer signals.  
+4. Feed recurring CX issues back into catalog quality rules.
+"""
+    )
+
 with tab5:
 
-    st.subheader("💰 Revenue Impact Agent")
+    st.subheader("💰 Revenue Recovery Command Center")
 
     c1, c2, c3 = st.columns(3)
 
@@ -1480,133 +1731,267 @@ with tab5:
         ) * 100
 
     c3.metric(
-        "Recovery %",
+        "Recovery Rate",
         f"{recovery_rate:.0f}%"
     )
 
     st.divider()
 
     # ==================================================
-    # REVENUE PRIORITIZATION ENGINE
+    # REVENUE RECOVERY OPPORTUNITIES
     # ==================================================
-    st.markdown("### 🚀 Revenue Prioritization Engine")
+    st.markdown("### 🚀 Revenue Recovery Opportunities")
 
-    priority_df = revenue_prioritization_engine(df)
+    temp_df = prepare_revenue_columns(df)
 
-    if not priority_df.empty:
-        display_priority_df = priority_df.copy()
-        display_priority_df = remove_recommendation_columns(
-            display_priority_df
+    for col in ["description", "tags", "color", "material", "size"]:
+        if col not in temp_df.columns:
+            temp_df[col] = ""
+
+    if "return_rate" not in temp_df.columns:
+        temp_df["return_rate"] = 0
+
+    if "rating" not in temp_df.columns:
+        temp_df["rating"] = 5
+
+    temp_df["return_rate"] = pd.to_numeric(temp_df["return_rate"], errors="coerce").fillna(0)
+    temp_df["rating"] = pd.to_numeric(temp_df["rating"], errors="coerce").fillna(5)
+
+    content_defect_df = temp_df[
+        temp_df["description"].isna() |
+        (temp_df["description"].astype(str).str.strip() == "") |
+        temp_df["tags"].isna() |
+        (temp_df["tags"].astype(str).str.strip() == "") |
+        temp_df["color"].isna() |
+        (temp_df["color"].astype(str).str.strip() == "") |
+        temp_df["material"].isna() |
+        (temp_df["material"].astype(str).str.strip() == "") |
+        temp_df["size"].isna() |
+        (temp_df["size"].astype(str).str.strip() == "")
+    ]
+
+    high_return_df = temp_df[temp_df["return_rate"] >= 10]
+    low_rating_df = temp_df[temp_df["rating"] < 4.0]
+
+    vendor_df = vendor_intelligence_agent(df)
+    division_df = division_performance_agent(df)
+
+    vendor_exposure = (
+        vendor_df[vendor_df["Risk Level"] == "HIGH"]["Revenue Exposure"].sum()
+        if not vendor_df.empty and "Risk Level" in vendor_df.columns else 0
+    )
+
+    content_exposure = content_defect_df["revenue"].sum()
+    cx_exposure = high_return_df["revenue"].sum() + low_rating_df["revenue"].sum()
+
+    division_exposure = (
+        division_df[division_df["Risk Level"] == "HIGH"]["Revenue Exposure"].sum()
+        if not division_df.empty and "Risk Level" in division_df.columns else 0
+    )
+
+    recovery_rows = [
+        {
+            "Rank": 1,
+            "Recovery Opportunity": "Vendor Governance Recovery",
+            "Business Driver": "High-risk vendor concentration",
+            "Exposure": vendor_exposure,
+            "Expected Recovery": vendor_exposure * 0.45,
+            "Owner": "Vendor Operations"
+        },
+        {
+            "Rank": 2,
+            "Recovery Opportunity": "Catalog Content Recovery",
+            "Business Driver": "Missing PDP content, tags, or attributes",
+            "Exposure": content_exposure,
+            "Expected Recovery": content_exposure * 0.60,
+            "Owner": "Catalog Operations"
+        },
+        {
+            "Rank": 3,
+            "Recovery Opportunity": "Customer Experience Recovery",
+            "Business Driver": "High returns or low ratings",
+            "Exposure": cx_exposure,
+            "Expected Recovery": cx_exposure * 0.35,
+            "Owner": "CX / Catalog Quality"
+        },
+        {
+            "Rank": 4,
+            "Recovery Opportunity": "Division Recovery Program",
+            "Business Driver": "High-risk business divisions",
+            "Exposure": division_exposure,
+            "Expected Recovery": division_exposure * 0.60,
+            "Owner": "Retail Ops / Category Team"
+        }
+    ]
+
+    recovery_df = pd.DataFrame(recovery_rows)
+    recovery_df = recovery_df[recovery_df["Exposure"] > 0]
+    recovery_df = recovery_df.sort_values("Expected Recovery", ascending=False).reset_index(drop=True)
+    recovery_df["Rank"] = range(1, len(recovery_df) + 1)
+
+    if recovery_df.empty:
+        st.success("No major revenue recovery opportunities detected.")
+    else:
+        display_recovery_df = recovery_df.copy()
+
+        display_recovery_df["Exposure"] = display_recovery_df["Exposure"].apply(
+            lambda x: f"${x:,.0f}"
         )
-        display_priority_df["Exposure"] = display_priority_df["Exposure"].apply(lambda x: f"${x:,.0f}")
+
+        display_recovery_df["Expected Recovery"] = display_recovery_df["Expected Recovery"].apply(
+            lambda x: f"${x:,.0f}"
+        )
 
         st.dataframe(
-            display_priority_df,
+            display_recovery_df,
             use_container_width=True,
             hide_index=True
         )
 
-        top_priority = priority_df.iloc[0]
+        top_recovery = recovery_df.iloc[0]
 
         st.warning(
-            f"Recommended action: **{top_priority['Recommended Action']}**."
-            f"with **${top_priority['Exposure']:,.0f}** exposed."
+            f"""
+Revenue recovery is primarily concentrated in **{top_recovery['Recovery Opportunity']}**.
+
+Exposure: **${top_recovery['Exposure']:,.0f}**
+
+Expected Recovery: **${top_recovery['Expected Recovery']:,.0f}**
+
+Recommended Owner: **{top_recovery['Owner']}**
+"""
         )
 
-    else:
-        st.success("No major revenue recovery priorities detected.")
+    st.divider()
 
     # ==================================================
-    # CATEGORY RISK ANALYSIS
+    # EXECUTIVE RECOVERY SCENARIO
     # ==================================================
-    st.markdown("### 📊 Category Risk Analysis")
+    st.markdown("### 📈 Executive Recovery Scenario")
 
-    if revenue.get("top_categories"):
-        category_df = pd.DataFrame(
-            revenue["top_categories"],
-            columns=["Category", "Revenue Exposure"]
-        )
+    if not recovery_df.empty:
+        total_exposure = recovery_df["Exposure"].sum()
+        total_expected_recovery = recovery_df["Expected Recovery"].sum()
 
-        category_df["Priority"] = category_df["Revenue Exposure"].apply(
-            lambda x: "Critical" if x >= category_df["Revenue Exposure"].mean() else "Monitor"
+        scenario_df = pd.DataFrame([
+            {
+                "Scenario": "Conservative Recovery",
+                "Assumption": "Recover 30% of identified exposure",
+                "Estimated Recovery": total_exposure * 0.30
+            },
+            {
+                "Scenario": "Base Recovery",
+                "Assumption": "Recover current modeled opportunity",
+                "Estimated Recovery": total_expected_recovery
+            },
+            {
+                "Scenario": "Aggressive Recovery",
+                "Assumption": "Recover 70% of identified exposure",
+                "Estimated Recovery": total_exposure * 0.70
+            }
+        ])
+
+        scenario_df["Estimated Recovery"] = scenario_df["Estimated Recovery"].apply(
+            lambda x: f"${x:,.0f}"
         )
 
         st.dataframe(
-            category_df,
+            scenario_df,
             use_container_width=True,
             hide_index=True
         )
-    else:
-        st.info("No category revenue risk available.")
 
-    # ==================================================
-    # BRAND RISK ANALYSIS
-    # ==================================================
-    st.markdown("### 🏷️ Brand Risk Analysis")
-
-    if revenue.get("top_brands"):
-        brand_df = pd.DataFrame(
-            revenue["top_brands"],
-            columns=["Brand", "Revenue Exposure"]
+        st.info(
+            "This tab converts operational risk into recovery opportunities by grouping exposure into vendor, catalog, customer experience, and division-level recovery programs."
         )
-
-        brand_df["Priority"] = brand_df["Revenue Exposure"].apply(
-            lambda x: "Critical" if x >= brand_df["Revenue Exposure"].mean() else "Monitor"
-        )
-
-        st.dataframe(
-            brand_df,
-            use_container_width=True,
-            hide_index=True
-        )
-    else:
-        st.info("No brand revenue risk available.")
-
-# ==================================================
-# LEADERSHIP IMPACT STATEMENT
-# ==================================================
-st.markdown("### 🧠 Leadership Impact Statement")
-
-st.info(
-    f"""
-    Catalog defects are currently exposing approximately
-    **${revenue.get('revenue_at_risk',0):,.0f}**
-    in monthly revenue risk.
-
-    Current recovery analysis indicates a potential
-    **${revenue.get('revenue_recovery_opportunity',0):,.0f}**
-    recovery opportunity.
-
-    Revenue exposure is concentrated across a small number of
-    categories, brands, divisions, and vendors.
-    """
-)
 
 with tab6:
-    st.subheader("🤖 AI Enrichment & Export")
+    st.subheader("🤖 Executive Recovery Pack & Export")
 
-    st.write("Download the enriched catalog and executive outputs.")
+    st.write("Download leadership-ready outputs from CatalogIQ Pro.")
+
+    # ==================================================
+    # EXECUTIVE RECOVERY REPORT
+    # ==================================================
+
+    report_text = f"""
+CATALOGIQ PRO — EXECUTIVE RECOVERY REPORT
+
+Platform: Catalog Intelligence & Executive Decision Center
+
+EXECUTIVE SUMMARY
+{executive_summary.get("ceo_summary", "No executive summary available.")}
+
+KEY METRICS
+Revenue At Risk: ${executive_summary.get("revenue_risk", 0):,.0f}
+Expected Recovery: ${executive_summary.get("expected_recovery", 0):,.0f}
+Business Severity: {executive_summary.get("business_severity", "N/A")}
+Primary Owner: {executive_summary.get("primary_owner", "N/A")}
+
+TOP RISKS
+- {chr(10).join(executive_summary.get("top_risks", []))}
+
+RECOMMENDED ACTIONS
+- {chr(10).join(executive_summary.get("top_actions", []))}
+
+LEADERSHIP DECISION
+{executive_summary.get("leadership_decision", "No leadership decision available.")}
+
+ASSUMPTIONS & PROXIES
+- Revenue exposure is currently modeled as a proxy using available catalog fields.
+- Recovery opportunity is modeled using assumed recovery rates.
+- Vendor, customer, division, and catalog signals are directional indicators for decision support.
+- This version is designed for leadership prioritization, not final finance reporting.
+
+NEXT PHASE ROADMAP
+1. Replace revenue proxy with price × monthly_sales.
+2. Add real vendor SLA history.
+3. Add customer return reason and review sentiment data.
+4. Add approval workflow for high-confidence AI corrections.
+5. Scale dataset to 5,000–10,000 SKUs.
+"""
+
+    st.markdown("### 📄 Executive Recovery Report")
+
+    st.download_button(
+        label="📥 Download Executive Recovery Report",
+        data=report_text,
+        file_name="catalogiq_executive_recovery_report.txt",
+        mime="text/plain",
+        use_container_width=True
+    )
+
+    # ==================================================
+    # EXECUTIVE CATALOG EXPORT
+    # ==================================================
+
+    st.markdown("### 📊 Executive Catalog Export")
 
     export_df = df.copy()
 
     export_df["catalog_health_index"] = health.get("catalog_health", 0)
     export_df["revenue_at_risk_total"] = revenue.get("revenue_at_risk", 0)
     export_df["expected_recovery"] = revenue.get("revenue_recovery_opportunity", 0)
-
+    export_df["business_severity"] = executive_summary.get("business_severity", "")
+    export_df["primary_owner"] = executive_summary.get("primary_owner", "")
     export_df["executive_summary"] = executive_summary.get("ceo_summary", "")
     export_df["top_risks"] = " | ".join(executive_summary.get("top_risks", []))
     export_df["recommended_actions"] = " | ".join(executive_summary.get("top_actions", []))
+    export_df["leadership_decision"] = executive_summary.get("leadership_decision", "")
 
     csv = export_df.to_csv(index=False).encode("utf-8")
 
     st.download_button(
-        label="📥 Download Executive Catalog Export",
+        label="📥 Download Executive Catalog CSV",
         data=csv,
         file_name="executive_catalog_export.csv",
         mime="text/csv",
         use_container_width=True
     )
 
+    st.info(
+        "This export package includes the executive recovery report, catalog-level export, modeled revenue exposure, top risks, recommended actions, and leadership decision summary."
+    )
 
 # ─── Run Analysis ───────────────────────────────
 col_score, col_enrich = st.columns(2)
